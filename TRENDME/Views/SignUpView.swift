@@ -1,13 +1,13 @@
 //
-//  LoginView.swift
+//  SignUpView.swift
 //  TRENDME
 //
+//  Created by Mangi Wimalaweera on 2024-03-26.
 //
 
 import SwiftUI
-import Neumorphic
 
-struct LoginView: View {
+struct SignUpView: View {
     @StateObject var loginVM: LoginViewModel = LoginViewModel()
     @Namespace var animation
     @State private var showPass : Bool = false
@@ -15,6 +15,7 @@ struct LoginView: View {
         ZStack(alignment: Alignment(horizontal: .center, vertical: .center), content: {
             
             Color.Neumorphic.main.ignoresSafeArea(.all)
+            
             
             BGAuth()
             
@@ -49,6 +50,32 @@ struct LoginView: View {
                     .softOuterShadow()
                     
                     
+                    HStack(spacing: 32, content: {
+                        
+                        Image(systemName: "envelope.fill")
+                            .font(.system(size: 22))
+                            .foregroundStyle(.primary.opacity(0.8))
+                            .frame(width: 32)
+                            .offset(x: /*@START_MENU_TOKEN@*/10.0/*@END_MENU_TOKEN@*/)
+                        
+                        VStack(spacing: 6, content: {
+                            TextField("Email", text: $loginVM.username)
+                                .multilineTextAlignment(.leading)
+                                .mask(alignment: .leading) {
+                                    Capsule()
+                                        .frame(width: 270, height: 45)
+                                        .offset(x: -5)
+                                }
+                        })
+                    })
+                    .padding(.all)
+                    .background(Color.Neumorphic.main)
+                    .cornerRadius(50)
+                    .padding(.horizontal, 20)
+                    .padding(.vertical)
+                    .softOuterShadow()
+                    
+                    
                     
                     HStack(spacing: 32, content: {
                         
@@ -66,12 +93,14 @@ struct LoginView: View {
                                         .frame(width: 240, height: 45)
                                         .offset(x: -20)
                                 }
+                            
+                            
                         }).overlay(alignment: .trailing) {
                             Image(systemName: showPass ? "eye.slash.fill" : "eye.fill")
                                 .font(.system(size: 18))
-                                .foregroundStyle(showPass ? Color.primary.opacity(0.8) : Color.red.opacity(0.8))
+                                .foregroundStyle(showPass ? Color.primary.opacity(0.8) : Color.red.opacity(0.6))
                                 .onTapGesture {
-                                    showPass = !showPass
+                                    showPass.toggle()
                                 }
                         }
                         
@@ -143,9 +172,8 @@ struct LoginView: View {
         })
         
     }
-    
 }
 
 #Preview {
-    LoginView()
+    SignUpView()
 }

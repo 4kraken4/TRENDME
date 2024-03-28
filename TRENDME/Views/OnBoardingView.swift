@@ -61,6 +61,7 @@ struct onBoarding: View {
                 activateIntro?.textOffset = -(textSize(captions[index].text) + 20)
                 activateIntro?.circleOffset = -(textSize(captions[index].text) + 20) / 2
             } completion: {
+
                 withAnimation(.spring(duration: 0.5), completionCriteria: .logicallyComplete){
                     activateIntro?.textOffset = 0
                     activateIntro?.circleOffset = 0

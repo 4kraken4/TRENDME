@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		93BEA9A52BB3F871004F5AFC /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BEA9A42BB3F871004F5AFC /* Home.swift */; };
+		93BEA9A72BB3F8A5004F5AFC /* BottomNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BEA9A62BB3F8A5004F5AFC /* BottomNavigation.swift */; };
+		93BEA9A92BB40C1E004F5AFC /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BEA9A82BB40C1E004F5AFC /* CategoryModel.swift */; };
+		93BEA9AB2BB420F2004F5AFC /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BEA9AA2BB420F2004F5AFC /* ProductModel.swift */; };
+		93BEA9AD2BB438A4004F5AFC /* ProductCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BEA9AC2BB438A4004F5AFC /* ProductCardView.swift */; };
+		93BEA9AF2BB44049004F5AFC /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BEA9AE2BB44049004F5AFC /* CollectionView.swift */; };
 		93DAFF792BA5C57E008D3612 /* TRENDMEApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DAFF782BA5C57E008D3612 /* TRENDMEApp.swift */; };
 		93DAFF7B2BA5C57E008D3612 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DAFF7A2BA5C57E008D3612 /* ContentView.swift */; };
 		93DAFF7D2BA5C57F008D3612 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93DAFF7C2BA5C57F008D3612 /* Assets.xcassets */; };
@@ -16,10 +22,21 @@
 		93E4B8752BAF569100D58E8C /* Blob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E4B8742BAF569100D58E8C /* Blob.swift */; };
 		93E4B8772BAFDA1A00D58E8C /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E4B8762BAFDA1A00D58E8C /* CustomTextField.swift */; };
 		93E4B8792BB0099F00D58E8C /* Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E4B8782BB0099F00D58E8C /* Intro.swift */; };
-		93E4B87B2BB00F3700D58E8C /* OnBoarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E4B87A2BB00F3700D58E8C /* OnBoarding.swift */; };
+		93E4B87B2BB00F3700D58E8C /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E4B87A2BB00F3700D58E8C /* OnBoardingView.swift */; };
+		93E4B87E2BB0AD5F00D58E8C /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 93E4B87D2BB0AD5F00D58E8C /* Kingfisher */; };
+		93E4B8812BB0AD9A00D58E8C /* Neumorphic in Frameworks */ = {isa = PBXBuildFile; productRef = 93E4B8802BB0AD9A00D58E8C /* Neumorphic */; };
+		93E4B8832BB1776E00D58E8C /* FacebookLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E4B8822BB1776E00D58E8C /* FacebookLogo.swift */; };
+		93ED5BF52BB3469700F169EE /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ED5BF42BB3469700F169EE /* SignUpView.swift */; };
+		93ED5BF72BB348A600F169EE /* BGAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ED5BF62BB348A600F169EE /* BGAuth.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		93BEA9A42BB3F871004F5AFC /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		93BEA9A62BB3F8A5004F5AFC /* BottomNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavigation.swift; sourceTree = "<group>"; };
+		93BEA9A82BB40C1E004F5AFC /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		93BEA9AA2BB420F2004F5AFC /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		93BEA9AC2BB438A4004F5AFC /* ProductCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCardView.swift; sourceTree = "<group>"; };
+		93BEA9AE2BB44049004F5AFC /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
 		93DAFF752BA5C57E008D3612 /* TRENDME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRENDME.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93DAFF782BA5C57E008D3612 /* TRENDMEApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRENDMEApp.swift; sourceTree = "<group>"; };
 		93DAFF7A2BA5C57E008D3612 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -30,7 +47,10 @@
 		93E4B8742BAF569100D58E8C /* Blob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blob.swift; sourceTree = "<group>"; };
 		93E4B8762BAFDA1A00D58E8C /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		93E4B8782BB0099F00D58E8C /* Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intro.swift; sourceTree = "<group>"; };
-		93E4B87A2BB00F3700D58E8C /* OnBoarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding.swift; sourceTree = "<group>"; };
+		93E4B87A2BB00F3700D58E8C /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
+		93E4B8822BB1776E00D58E8C /* FacebookLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookLogo.swift; sourceTree = "<group>"; };
+		93ED5BF42BB3469700F169EE /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		93ED5BF62BB348A600F169EE /* BGAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BGAuth.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +58,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93E4B8812BB0AD9A00D58E8C /* Neumorphic in Frameworks */,
+				93E4B87E2BB0AD5F00D58E8C /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +109,8 @@
 			isa = PBXGroup;
 			children = (
 				93E4B8782BB0099F00D58E8C /* Intro.swift */,
+				93BEA9A82BB40C1E004F5AFC /* CategoryModel.swift */,
+				93BEA9AA2BB420F2004F5AFC /* ProductModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -95,7 +119,10 @@
 			isa = PBXGroup;
 			children = (
 				93DAFF8A2BA5CBB2008D3612 /* LoginView.swift */,
-				93E4B87A2BB00F3700D58E8C /* OnBoarding.swift */,
+				93E4B87A2BB00F3700D58E8C /* OnBoardingView.swift */,
+				93ED5BF42BB3469700F169EE /* SignUpView.swift */,
+				93BEA9A42BB3F871004F5AFC /* Home.swift */,
+				93BEA9AE2BB44049004F5AFC /* CollectionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -113,6 +140,10 @@
 			children = (
 				93E4B8742BAF569100D58E8C /* Blob.swift */,
 				93E4B8762BAFDA1A00D58E8C /* CustomTextField.swift */,
+				93E4B8822BB1776E00D58E8C /* FacebookLogo.swift */,
+				93ED5BF62BB348A600F169EE /* BGAuth.swift */,
+				93BEA9A62BB3F8A5004F5AFC /* BottomNavigation.swift */,
+				93BEA9AC2BB438A4004F5AFC /* ProductCardView.swift */,
 			);
 			path = UIComponents;
 			sourceTree = "<group>";
@@ -133,6 +164,10 @@
 			dependencies = (
 			);
 			name = TRENDME;
+			packageProductDependencies = (
+				93E4B87D2BB0AD5F00D58E8C /* Kingfisher */,
+				93E4B8802BB0AD9A00D58E8C /* Neumorphic */,
+			);
 			productName = TRENDME;
 			productReference = 93DAFF752BA5C57E008D3612 /* TRENDME.app */;
 			productType = "com.apple.product-type.application";
@@ -161,6 +196,10 @@
 				Base,
 			);
 			mainGroup = 93DAFF6C2BA5C57E008D3612;
+			packageReferences = (
+				93E4B87C2BB0AD5F00D58E8C /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				93E4B87F2BB0AD9A00D58E8C /* XCRemoteSwiftPackageReference "neumorphic" */,
+			);
 			productRefGroup = 93DAFF762BA5C57E008D3612 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -187,13 +226,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93ED5BF72BB348A600F169EE /* BGAuth.swift in Sources */,
+				93E4B8832BB1776E00D58E8C /* FacebookLogo.swift in Sources */,
+				93BEA9AF2BB44049004F5AFC /* CollectionView.swift in Sources */,
 				93DAFF8D2BA5CC38008D3612 /* LoginViewModel.swift in Sources */,
 				93DAFF8B2BA5CBB2008D3612 /* LoginView.swift in Sources */,
+				93BEA9AB2BB420F2004F5AFC /* ProductModel.swift in Sources */,
 				93E4B8772BAFDA1A00D58E8C /* CustomTextField.swift in Sources */,
+				93BEA9AD2BB438A4004F5AFC /* ProductCardView.swift in Sources */,
 				93E4B8752BAF569100D58E8C /* Blob.swift in Sources */,
 				93E4B8792BB0099F00D58E8C /* Intro.swift in Sources */,
+				93ED5BF52BB3469700F169EE /* SignUpView.swift in Sources */,
 				93DAFF7B2BA5C57E008D3612 /* ContentView.swift in Sources */,
-				93E4B87B2BB00F3700D58E8C /* OnBoarding.swift in Sources */,
+				93E4B87B2BB00F3700D58E8C /* OnBoardingView.swift in Sources */,
+				93BEA9A52BB3F871004F5AFC /* Home.swift in Sources */,
+				93BEA9A92BB40C1E004F5AFC /* CategoryModel.swift in Sources */,
+				93BEA9A72BB3F8A5004F5AFC /* BottomNavigation.swift in Sources */,
 				93DAFF792BA5C57E008D3612 /* TRENDMEApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,6 +446,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		93E4B87C2BB0AD5F00D58E8C /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.11.0;
+			};
+		};
+		93E4B87F2BB0AD9A00D58E8C /* XCRemoteSwiftPackageReference "neumorphic" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/costachung/neumorphic/";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		93E4B87D2BB0AD5F00D58E8C /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 93E4B87C2BB0AD5F00D58E8C /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		93E4B8802BB0AD9A00D58E8C /* Neumorphic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 93E4B87F2BB0AD9A00D58E8C /* XCRemoteSwiftPackageReference "neumorphic" */;
+			productName = Neumorphic;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 93DAFF6D2BA5C57E008D3612 /* Project object */;
 }
