@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct BGAuth: View {
+struct Circles: View {
     var body: some View {
         ZStack(content: {
             Circle()
@@ -34,10 +34,9 @@ struct BGAuth: View {
                 .offset(x: 130, y: 480)
                 .frame(width:240)
                 .foregroundStyle(.orange.opacity(0.9))        })
-        .blur(radius: 15.0)
     }
 }
 
 #Preview {
-    BGAuth()
+    Circles()
 }

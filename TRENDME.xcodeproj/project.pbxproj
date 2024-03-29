@@ -7,12 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		93BEA9A52BB3F871004F5AFC /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BEA9A42BB3F871004F5AFC /* Home.swift */; };
+		93BEA9A52BB3F871004F5AFC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BEA9A42BB3F871004F5AFC /* HomeView.swift */; };
 		93BEA9A72BB3F8A5004F5AFC /* BottomNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BEA9A62BB3F8A5004F5AFC /* BottomNavigation.swift */; };
 		93BEA9A92BB40C1E004F5AFC /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BEA9A82BB40C1E004F5AFC /* CategoryModel.swift */; };
 		93BEA9AB2BB420F2004F5AFC /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BEA9AA2BB420F2004F5AFC /* ProductModel.swift */; };
 		93BEA9AD2BB438A4004F5AFC /* ProductCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BEA9AC2BB438A4004F5AFC /* ProductCardView.swift */; };
 		93BEA9AF2BB44049004F5AFC /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BEA9AE2BB44049004F5AFC /* CollectionView.swift */; };
+		93BEA9B12BB59270004F5AFC /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BEA9B02BB59270004F5AFC /* CartView.swift */; };
+		93BEA9B32BB5ADB1004F5AFC /* CartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BEA9B22BB5ADB1004F5AFC /* CartViewModel.swift */; };
+		93BEA9B62BB68C2A004F5AFC /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BEA9B52BB68C2A004F5AFC /* WebService.swift */; };
+		93BEA9BA2BB6ADDA004F5AFC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BEA9B92BB6ADDA004F5AFC /* Extensions.swift */; };
+		93BEA9BC2BB6B4A4004F5AFC /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BEA9BB2BB6B4A4004F5AFC /* CustomButton.swift */; };
+		93BEA9BE2BB6BFFB004F5AFC /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BEA9BD2BB6BFFB004F5AFC /* SignUpViewModel.swift */; };
+		93BEA9C22BB6C5A0004F5AFC /* ForgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BEA9C12BB6C5A0004F5AFC /* ForgotPassword.swift */; };
+		93BEA9C42BB6C960004F5AFC /* PasswordResetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BEA9C32BB6C960004F5AFC /* PasswordResetView.swift */; };
+		93BEA9C62BB6C9C3004F5AFC /* PasswordResetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BEA9C52BB6C9C3004F5AFC /* PasswordResetViewModel.swift */; };
 		93DAFF792BA5C57E008D3612 /* TRENDMEApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DAFF782BA5C57E008D3612 /* TRENDMEApp.swift */; };
 		93DAFF7B2BA5C57E008D3612 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DAFF7A2BA5C57E008D3612 /* ContentView.swift */; };
 		93DAFF7D2BA5C57F008D3612 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93DAFF7C2BA5C57F008D3612 /* Assets.xcassets */; };
@@ -27,16 +36,25 @@
 		93E4B8812BB0AD9A00D58E8C /* Neumorphic in Frameworks */ = {isa = PBXBuildFile; productRef = 93E4B8802BB0AD9A00D58E8C /* Neumorphic */; };
 		93E4B8832BB1776E00D58E8C /* FacebookLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E4B8822BB1776E00D58E8C /* FacebookLogo.swift */; };
 		93ED5BF52BB3469700F169EE /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ED5BF42BB3469700F169EE /* SignUpView.swift */; };
-		93ED5BF72BB348A600F169EE /* BGAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ED5BF62BB348A600F169EE /* BGAuth.swift */; };
+		93ED5BF72BB348A600F169EE /* Circles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ED5BF62BB348A600F169EE /* Circles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		93BEA9A42BB3F871004F5AFC /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		93BEA9A42BB3F871004F5AFC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		93BEA9A62BB3F8A5004F5AFC /* BottomNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavigation.swift; sourceTree = "<group>"; };
 		93BEA9A82BB40C1E004F5AFC /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
 		93BEA9AA2BB420F2004F5AFC /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
 		93BEA9AC2BB438A4004F5AFC /* ProductCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCardView.swift; sourceTree = "<group>"; };
 		93BEA9AE2BB44049004F5AFC /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+		93BEA9B02BB59270004F5AFC /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		93BEA9B22BB5ADB1004F5AFC /* CartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewModel.swift; sourceTree = "<group>"; };
+		93BEA9B52BB68C2A004F5AFC /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		93BEA9B92BB6ADDA004F5AFC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		93BEA9BB2BB6B4A4004F5AFC /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		93BEA9BD2BB6BFFB004F5AFC /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		93BEA9C12BB6C5A0004F5AFC /* ForgotPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassword.swift; sourceTree = "<group>"; };
+		93BEA9C32BB6C960004F5AFC /* PasswordResetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordResetView.swift; sourceTree = "<group>"; };
+		93BEA9C52BB6C9C3004F5AFC /* PasswordResetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordResetViewModel.swift; sourceTree = "<group>"; };
 		93DAFF752BA5C57E008D3612 /* TRENDME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRENDME.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93DAFF782BA5C57E008D3612 /* TRENDMEApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRENDMEApp.swift; sourceTree = "<group>"; };
 		93DAFF7A2BA5C57E008D3612 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,7 +68,7 @@
 		93E4B87A2BB00F3700D58E8C /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
 		93E4B8822BB1776E00D58E8C /* FacebookLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookLogo.swift; sourceTree = "<group>"; };
 		93ED5BF42BB3469700F169EE /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
-		93ED5BF62BB348A600F169EE /* BGAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BGAuth.swift; sourceTree = "<group>"; };
+		93ED5BF62BB348A600F169EE /* Circles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +84,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		93BEA9B42BB68C02004F5AFC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				93BEA9B52BB68C2A004F5AFC /* WebService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		93BEA9B72BB6ADA0004F5AFC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				93BEA9B92BB6ADDA004F5AFC /* Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		93DAFF6C2BA5C57E008D3612 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +119,8 @@
 		93DAFF772BA5C57E008D3612 /* TRENDME */ = {
 			isa = PBXGroup;
 			children = (
+				93BEA9B72BB6ADA0004F5AFC /* Helpers */,
+				93BEA9B42BB68C02004F5AFC /* Services */,
 				93E4B8712BAF55AD00D58E8C /* UIComponents */,
 				93DAFF872BA5C7F9008D3612 /* Models */,
 				93DAFF882BA5C80C008D3612 /* Views */,
@@ -121,8 +157,11 @@
 				93DAFF8A2BA5CBB2008D3612 /* LoginView.swift */,
 				93E4B87A2BB00F3700D58E8C /* OnBoardingView.swift */,
 				93ED5BF42BB3469700F169EE /* SignUpView.swift */,
-				93BEA9A42BB3F871004F5AFC /* Home.swift */,
+				93BEA9A42BB3F871004F5AFC /* HomeView.swift */,
 				93BEA9AE2BB44049004F5AFC /* CollectionView.swift */,
+				93BEA9B02BB59270004F5AFC /* CartView.swift */,
+				93BEA9C12BB6C5A0004F5AFC /* ForgotPassword.swift */,
+				93BEA9C32BB6C960004F5AFC /* PasswordResetView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -131,6 +170,9 @@
 			isa = PBXGroup;
 			children = (
 				93DAFF8C2BA5CC38008D3612 /* LoginViewModel.swift */,
+				93BEA9BD2BB6BFFB004F5AFC /* SignUpViewModel.swift */,
+				93BEA9B22BB5ADB1004F5AFC /* CartViewModel.swift */,
+				93BEA9C52BB6C9C3004F5AFC /* PasswordResetViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -141,9 +183,10 @@
 				93E4B8742BAF569100D58E8C /* Blob.swift */,
 				93E4B8762BAFDA1A00D58E8C /* CustomTextField.swift */,
 				93E4B8822BB1776E00D58E8C /* FacebookLogo.swift */,
-				93ED5BF62BB348A600F169EE /* BGAuth.swift */,
+				93ED5BF62BB348A600F169EE /* Circles.swift */,
 				93BEA9A62BB3F8A5004F5AFC /* BottomNavigation.swift */,
 				93BEA9AC2BB438A4004F5AFC /* ProductCardView.swift */,
+				93BEA9BB2BB6B4A4004F5AFC /* CustomButton.swift */,
 			);
 			path = UIComponents;
 			sourceTree = "<group>";
@@ -226,22 +269,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93ED5BF72BB348A600F169EE /* BGAuth.swift in Sources */,
+				93BEA9B12BB59270004F5AFC /* CartView.swift in Sources */,
+				93ED5BF72BB348A600F169EE /* Circles.swift in Sources */,
 				93E4B8832BB1776E00D58E8C /* FacebookLogo.swift in Sources */,
+				93BEA9B32BB5ADB1004F5AFC /* CartViewModel.swift in Sources */,
 				93BEA9AF2BB44049004F5AFC /* CollectionView.swift in Sources */,
 				93DAFF8D2BA5CC38008D3612 /* LoginViewModel.swift in Sources */,
 				93DAFF8B2BA5CBB2008D3612 /* LoginView.swift in Sources */,
+				93BEA9C62BB6C9C3004F5AFC /* PasswordResetViewModel.swift in Sources */,
 				93BEA9AB2BB420F2004F5AFC /* ProductModel.swift in Sources */,
 				93E4B8772BAFDA1A00D58E8C /* CustomTextField.swift in Sources */,
 				93BEA9AD2BB438A4004F5AFC /* ProductCardView.swift in Sources */,
 				93E4B8752BAF569100D58E8C /* Blob.swift in Sources */,
+				93BEA9C22BB6C5A0004F5AFC /* ForgotPassword.swift in Sources */,
 				93E4B8792BB0099F00D58E8C /* Intro.swift in Sources */,
 				93ED5BF52BB3469700F169EE /* SignUpView.swift in Sources */,
+				93BEA9BE2BB6BFFB004F5AFC /* SignUpViewModel.swift in Sources */,
+				93BEA9BA2BB6ADDA004F5AFC /* Extensions.swift in Sources */,
 				93DAFF7B2BA5C57E008D3612 /* ContentView.swift in Sources */,
 				93E4B87B2BB00F3700D58E8C /* OnBoardingView.swift in Sources */,
-				93BEA9A52BB3F871004F5AFC /* Home.swift in Sources */,
+				93BEA9A52BB3F871004F5AFC /* HomeView.swift in Sources */,
 				93BEA9A92BB40C1E004F5AFC /* CategoryModel.swift in Sources */,
+				93BEA9BC2BB6B4A4004F5AFC /* CustomButton.swift in Sources */,
+				93BEA9C42BB6C960004F5AFC /* PasswordResetView.swift in Sources */,
 				93BEA9A72BB3F8A5004F5AFC /* BottomNavigation.swift in Sources */,
+				93BEA9B62BB68C2A004F5AFC /* WebService.swift in Sources */,
 				93DAFF792BA5C57E008D3612 /* TRENDMEApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
