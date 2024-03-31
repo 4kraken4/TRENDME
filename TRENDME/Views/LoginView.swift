@@ -5,147 +5,108 @@
 //
 
 import SwiftUI
-import Neumorphic
 
 struct LoginView: View {
     @StateObject var loginVM: LoginViewModel = LoginViewModel()
-    @Namespace var animation
     @State private var showPass : Bool = false
+    @State private var showForgotPasswordView: Bool = false
+    @State var showResetView: Bool = false
+    @Binding var showSignUp: Bool
     var body: some View {
-        ZStack(alignment: Alignment(horizontal: .center, vertical: .center), content: {
+        
+        
+        VStack(alignment: .leading, spacing: 15, content: {
+            Spacer(minLength: 0)
             
-            Color.Neumorphic.main.ignoresSafeArea(.all)
+            Text("Login")
+                .font(.largeTitle)
+                .fontDesign(.rounded)
+                .fontWeight(.heavy)
             
-            BGAuth()
+            Text("Please sign in to continue")
+                .font(.callout)
+                .fontDesign(.rounded)
+                .fontWeight(.semibold)
+                .padding(.top, -5)
             
-            
-            VStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, spacing: 40, content: {
+            VStack(spacing: 25) {
                 
-                //                 Login controls
-                VStack (alignment: .center, spacing: 2, content: {
-                    HStack(spacing: 32, content: {
-                        
-                        Image(systemName: "person.fill")
-                            .font(.system(size: 28))
-                            .foregroundStyle(.primary.opacity(0.8))
-                            .frame(width: 32)
-                            .offset(x: /*@START_MENU_TOKEN@*/10.0/*@END_MENU_TOKEN@*/)
-                        
-                        VStack(spacing: 6, content: {
-                            TextField("Username", text: $loginVM.username)
-                                .multilineTextAlignment(.leading)
-                                .mask(alignment: .leading) {
-                                    Capsule()
-                                        .frame(width: 270, height: 45)
-                                        .offset(x: -5)
-                                }
-                        })
-                    })
-                    .padding(.all)
-                    .background(Color.Neumorphic.main)
-                    .cornerRadius(50)
-                    .padding(.horizontal, 20)
-                    .padding(.vertical)
-                    .softOuterShadow()
-                    
-                    
-                    
-                    HStack(spacing: 32, content: {
-                        
-                        Image(systemName: "lock.fill")
-                            .font(.system(size: 28))
-                            .foregroundStyle(.primary.opacity(0.8))
-                            .frame(width: 32)
-                            .offset(x: /*@START_MENU_TOKEN@*/10.0/*@END_MENU_TOKEN@*/)
-                        
-                        VStack(spacing: 6, content: {
-                            SecureField("Password", text: $loginVM.password)
-                                .multilineTextAlignment(.leading)
-                                .mask(alignment: .leading) {
-                                    Capsule()
-                                        .frame(width: 240, height: 45)
-                                        .offset(x: -20)
-                                }
-                        }).overlay(alignment: .trailing) {
-                            Image(systemName: showPass ? "eye.slash.fill" : "eye.fill")
-                                .font(.system(size: 18))
-                                .foregroundStyle(showPass ? Color.primary.opacity(0.8) : Color.red.opacity(0.8))
-                                .onTapGesture {
-                                    showPass = !showPass
-                                }
-                        }
-                        
-                    })
-                    .padding(.all)
-                    .background(Color.Neumorphic.main)
-                    .cornerRadius(50)
-                    .padding(.horizontal, 20)
-                    .padding(.vertical)
-                    .softOuterShadow()
-                })
+                CustomTextField(sfIcon: "at", hint: "Email", value: $loginVM.email)
+                CustomTextField(sfIcon: "lock", hint: "Password", isPassword: true, value: $loginVM.password )
+                    .padding(.top, 5)
                 
-                //                 Devider
-                VStack( alignment: .center, spacing: 0, content: {
-                    
-                    Divider()
-                        .padding(.vertical, 1)
-                        .overlay {
-                            Capsule()
-                                .foregroundStyle(.gray.opacity(0.1))
-                        }
-                        .padding(.horizontal, 50)
-                        .overlay {
-                            Capsule()
-                                .frame(width: 140, height: 32)
-                                .foregroundStyle(Color.Neumorphic.main)
-                                .overlay {
-                                    Text("Social Logins")
-                                        .fontWeight(.light)
-                                        .foregroundStyle(.gray.opacity(0.5))
-                                        .fontDesign(.rounded)
-                                        .tracking(1.5)
-                                }
-                        }
-                })
+                Button {
+                    showForgotPasswordView.toggle()
+                }label: {
+                    Text("Forgot Password?")
+                        .font(.callout)
+                        .fontDesign(.rounded)
+                        .tint(.blue)
+                        .hSpacing(.trailing)
+                }
                 
-                //                 Social logins
-                HStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, spacing: 32, content: {
-                    Button(action: {}, label: {
-                        FacebookLogo()
-                            .frame(width: 38, height: 38)
-                            .padding(0)
-                    })
-                    .softButtonStyle(Circle(), mainColor: Color.Neumorphic.main, textColor: Color.blue, pressedEffect: .flat)
-                    .padding(0)
+                CustomButton(title: "Sign In", icon: "arrow.right") {
                     
+                    // Login logic
+                    loginVM.login()
                     
-                    Button(action: {}, label: {
-                        FacebookLogo()
-                            .frame(width: 38, height: 38)
-                            .padding(0)
-                    })
-                    .softButtonStyle(Circle(), mainColor: Color.Neumorphic.main, textColor: Color.blue, pressedEffect: .flat)
-                    .padding(0)
-                    
-                    
-                    Button(action: {}, label: {
-                        FacebookLogo()
-                            .frame(width: 38, height: 38)
-                            .padding(0)
-                    })
-                    .softButtonStyle(Circle(), mainColor: Color.Neumorphic.main, textColor: Color.blue, pressedEffect: .flat)
-                    .padding(0)
-                })
+                }.hSpacing(.trailing)
+                    .disableWithOpacity(loginVM.email.isEmpty || loginVM.password.isEmpty)
                 
-            })
+                NavigationLink(destination: HomeView(), isActive: $loginVM.isAuthenticated) {
+                    EmptyView()
+                }
+                
+            }.padding(.top, 20)
             
+            Spacer(minLength: 0)
             
+            HStack(spacing: 6) {
+                Text("Don't have an account?")
+                    .foregroundStyle(.gray)
+                
+                Button{
+                    showSignUp.toggle()
+                } label: {
+                    Text("Sing Up")
+                        .fontWeight(.bold)
+                        .fontDesign(.rounded)
+                }
+            }.hSpacing()
         })
+        .padding(.vertical, 15)
+        .padding(.horizontal, 25)
+        .toolbar(.hidden, for: .navigationBar)
+        // Asking email for password resetting
+        .sheet(isPresented: $showForgotPasswordView, content: {
+            if #available(iOS 16.4, *) {
+                ForgotPassword(showResetView: $showResetView)
+                    .presentationDetents([.height(300)])
+                    .presentationCornerRadius(30)
+            } else {
+                ForgotPassword(showResetView: $showResetView)
+                    .presentationDetents([.height(300)])
+            }
+        })
+        
+        // resetting the pasword
+        
+        .sheet(isPresented: $showResetView, content: {
+            if #available(iOS 16.4, *) {
+                PasswordResetView()
+                    .presentationDetents([.height(300)])
+                    .presentationCornerRadius(30)
+            } else {
+                PasswordResetView()
+                    .presentationDetents([.height(300)])
+            }
+        })
+        
         
     }
     
 }
 
 #Preview {
-    LoginView()
+    LoginView(showSignUp: Binding.constant(true))
 }

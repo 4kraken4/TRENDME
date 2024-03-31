@@ -17,5 +17,307 @@
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5E64AFFF-3986-4701-B7FD-67C5F05FAF69"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TRENDME/ViewModels/CollectionViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "fetchCollection(category:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5E64AFFF-3986-4701-B7FD-67C5F05FAF69 - d5309e92a69cafac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;TRENDME.CategoryItemCollection&gt;, Swift.Error&gt;) -&gt; () in TRENDME.CollectionViewModel.fetchCollection(category: Swift.String) -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CollectionViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "256">
+               </Location>
+               <Location
+                  uuid = "5E64AFFF-3986-4701-B7FD-67C5F05FAF69 - 745e4e77833e4a0e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;TRENDME.Item&gt;, Swift.Error&gt;) -&gt; () in TRENDME.CollectionViewModel.fetchCollection(category: Swift.String) -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CollectionViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "256">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D869E66B-2DFE-4EAB-A8A0-870BDAB4507E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TRENDME/ViewModels/CollectionViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "fetchCollection(category:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D869E66B-2DFE-4EAB-A8A0-870BDAB4507E - d5309e92a69caf8d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;TRENDME.CategoryItemCollection&gt;, Swift.Error&gt;) -&gt; () in TRENDME.CollectionViewModel.fetchCollection(category: Swift.String) -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CollectionViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "404">
+               </Location>
+               <Location
+                  uuid = "D869E66B-2DFE-4EAB-A8A0-870BDAB4507E - 7058d9ecf2c8d5df"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;Swift.Array&lt;TRENDME.CategoryItemCollection&gt;, Swift.Error&gt;) -&gt; () in TRENDME.CollectionViewModel.fetchCollection(category: Swift.String) -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CollectionViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "D869E66B-2DFE-4EAB-A8A0-870BDAB4507E - 745e4e77833e4a2f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;TRENDME.Item&gt;, Swift.Error&gt;) -&gt; () in TRENDME.CollectionViewModel.fetchCollection(category: Swift.String) -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CollectionViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "404">
+               </Location>
+               <Location
+                  uuid = "D869E66B-2DFE-4EAB-A8A0-870BDAB4507E - bdd09486cf29e70b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;Swift.Array&lt;TRENDME.Item&gt;, Swift.Error&gt;) -&gt; () in TRENDME.CollectionViewModel.fetchCollection(category: Swift.String) -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CollectionViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "76">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EA920ECB-EEAC-4845-9E05-90F15D16827B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TRENDME/ViewModels/ProductCardViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "ProductCardViewModel"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9798DC5C-B119-4E27-93FA-5E26B4EC3A9A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TRENDME/ViewModels/ProductCardViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "loadImage(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4D46E07B-A34E-4363-8F28-E81E829A9AA5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TRENDME/ViewModels/ProductCardViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "loadImage(from:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4D46E07B-A34E-4363-8F28-E81E829A9AA5 - 1af603347afac8fe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Kingfisher.RetrieveImageResult, Kingfisher.KingfisherError&gt;) -&gt; () in TRENDME.ProductCardViewModel.loadImage(from: Swift.String) -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/ProductCardViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "380">
+               </Location>
+               <Location
+                  uuid = "4D46E07B-A34E-4363-8F28-E81E829A9AA5 - 1af603347afac8fe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Kingfisher.RetrieveImageResult, Kingfisher.KingfisherError&gt;) -&gt; () in TRENDME.ProductCardViewModel.loadImage(from: Swift.String) -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/ProductCardViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "416">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6E429865-9EB9-4CB6-B80D-65BE7D540433"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TRENDME/ViewModels/CollectionViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "fetchCollection(category:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CA43118B-86E9-4A27-B658-CDD260383702"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TRENDME/Helpers/ApiService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "fetchData(endpoint:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2246CE68-3F9B-47D0-A967-883F277338D2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TRENDME/Views/HomeView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "153"
+            endingLineNumber = "153"
+            landmarkName = "categoryListView"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "2246CE68-3F9B-47D0-A967-883F277338D2 - 20c96e0d10908fdc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TRENDME.HomeView.categoryListView.getter : some"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/Views/HomeView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "153"
+                  endingLineNumber = "153"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "2246CE68-3F9B-47D0-A967-883F277338D2 - eb4c8646da2cbb2c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.scrollIndicators(_: SwiftUI.ScrollIndicatorVisibility, axes: SwiftUI.Axis.Set) -&gt; some&gt;&gt;.0 in TRENDME.HomeView.categoryListView.getter : some"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/Views/HomeView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "154"
+                  endingLineNumber = "154"
+                  offsetFromSymbolStart = "544">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0DCBEB8E-B075-4AA4-910A-7F549DD4A6A4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TRENDME/Views/HomeView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "157"
+            endingLineNumber = "157"
+            landmarkName = "categoryListView"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
