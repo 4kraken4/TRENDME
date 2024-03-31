@@ -5,7 +5,6 @@
 //
 
 import SwiftUI
-import Neumorphic
 
 struct LoginView: View {
     @StateObject var loginVM: LoginViewModel = LoginViewModel()
@@ -48,11 +47,17 @@ struct LoginView: View {
                 
                 CustomButton(title: "Sign In", icon: "arrow.right") {
                     
+                    // Login logic
+                    loginVM.login()
+                    
                 }.hSpacing(.trailing)
                     .disableWithOpacity(loginVM.email.isEmpty || loginVM.password.isEmpty)
-                    
+                
+                NavigationLink(destination: HomeView(), isActive: $loginVM.isAuthenticated) {
+                    EmptyView()
+                }
+                
             }.padding(.top, 20)
-            
             
             Spacer(minLength: 0)
             

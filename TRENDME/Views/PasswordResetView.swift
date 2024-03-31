@@ -33,7 +33,7 @@ struct PasswordResetView: View {
                 CustomTextField(sfIcon: "lock", hint: "Confirm Password", isPassword: true ,value: $passwordResetVM.password)
                     .padding(.top, 5)
                 
-                CustomButton(title: "Send Link", icon: "xmark") {
+                CustomButton(title: "Send Link", icon: "arrow.right") {
                     
                     // Password reset logic
                     

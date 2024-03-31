@@ -43,6 +43,10 @@ struct SignUpView: View {
                 
                 CustomButton(title: "Sign Up", icon: "arrow.right") {
                     
+                    // Sign Up Logic
+                    
+                    signUpVM.signUp()
+                    
                 }.hSpacing(.trailing)
                     .disableWithOpacity(signUpVM.email.isEmpty || signUpVM.password.isEmpty || signUpVM.username.isEmpty)
                     

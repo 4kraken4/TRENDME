@@ -33,7 +33,8 @@ struct Circles: View {
             Circle()
                 .offset(x: 130, y: 480)
                 .frame(width:240)
-                .foregroundStyle(.orange.opacity(0.9))        })
+                .foregroundStyle(.orange.opacity(0.9))
+        })
     }
 }
 

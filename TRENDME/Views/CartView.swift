@@ -11,94 +11,76 @@ struct CartView: View {
     
     @Environment (\.presentationMode) var mode
     @EnvironmentObject var cartVM: CartViewModel
+    @State private var items: [Item] = [
+        Item(id: "124", itemID: 1, name: "Long sleeved shirt", image: "4995.jpg", unitPrice: 29.99, description: "The best for youth", tags: ["men", "trending"], category: Category.men),
+        Item(id: "123", itemID: 2, name: "Long sleeved shirt", image: "4995.jpg", unitPrice: 29.99, description: "The best for youth", tags: ["men", "trending"], category: Category.men),
+        Item(id: "12378", itemID: 3, name: "Long sleeved shirt", image: "4995.jpg", unitPrice: 29.99, description: "The best for youth", tags: ["men", "trending"], category: Category.men)
+    ]
     
     var body: some View {
         NavigationView {
-            ScrollView {
-                VStack {
-                    HStack {
-                        Text("Cart")
-                            .font(.largeTitle)
-                            .padding(.trailing)
+            VStack(alignment: .leading) {
+                ScrollView {
+                    VStack(alignment: .center) {
                         
-                        Spacer()
-                        
-                        Button {
-                            mode.wrappedValue.dismiss()
-                        } label: {
-                            Text("\(cartVM.products.count)")
-                                .imageScale(.large)
-                                .padding()
-                                .frame(width: 70, height: 90)
-                                .background(.blue)
-                                .clipShape(.capsule)
+                        VStack(alignment: .leading) {
+                            HStack {
+                                Text("Delivery Amount")
+                                Spacer()
+                                Text("Free")
+                                    .font(.system(size: 24, weight: .semibold))
+                                    .fontDesign(.rounded)
+                            }
+                            
+                            Divider()
+                            
+                            HStack (alignment: .center) {
+                                VStack (alignment: .leading){
+                                    Text("Total Amount")
+                                        .font(.system(size: 24))
+                                    
+                                    Text("Rs. \(cartVM.total.formatted())")
+                                        .font(.system(size: 36, weight: .semibold))
+                                }
+                                
+                                Spacer()
+                                
+                                Image(systemName: "cart.fill")
+                                    .font(.system(size: 46))
+                                    .foregroundStyle(.black.opacity(0.5))
+                            }
+                            
                         }
-                        .foregroundStyle(.black)
+                        .padding(30)
+                        .frame(maxWidth: .infinity)
+                        .background(.black.opacity(0.1))
+                        .clipShape(.rect(cornerRadius: 30))
+                        .padding()
                         
                         
-                        Button {
-                            mode.wrappedValue.dismiss()
-                        } label: {
-                            Text("3")
-                                .imageScale(.large)
-                                .padding()
-                                .frame(width: 70, height: 90)
-                                .overlay(Capsule().stroke())
+                        VStack {
+                            ForEach (items, id: \.id) {item in
+                                CartProductView(item: item, onDelete: { item in
+                                    cartVM.removeFromCart(item: item)
+                                })
+                                .environmentObject(cartVM)
+                            }
                         }
-                        .foregroundStyle(.black)
+                        .padding()
                     }
-                    .padding(30)
-                    
-                    
-                    VStack {
-                        ForEach (cartVM.products, id: \.name) {item in
-                            CartProductView(product: item)
-                        }
-                    }.padding(.horizontal)
-                    
-                    
-                    
-                    // Card total
-                    
-                    VStack(alignment: .leading) {
-                        HStack {
-                            Text("Delivery Amount")
-                            Spacer()
-                            Text("Free")
-                                .font(.system(size: 24, weight: .semibold))
-                                .fontDesign(.rounded)
-                        }
-                        
-                        Divider()
-                        
-                        Text("Total Amount")
-                            .font(.system(size: 24))
-                        
-                        Text("USD \(cartVM.total.formatted())")
-                            .font(.system(size: 36, weight: .semibold))
-                    }
-                    .padding(30)
-                    .frame(maxWidth: .infinity)
-                    .background(.blue.opacity(0.5))
-                    .clipShape(.rect(cornerRadius: 30))
-                    .padding()
-                    
-                    
-                    
-                    // Button
-                    
-                    Button{
-                        
-                    } label: {
-                        Text("Make Payment")
-                            .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
-                            .frame(height: 80)
-                            .background(.blue.opacity(0.5))
-                            .font(.system(size: 20, weight: .semibold))
-                            .foregroundStyle(.black)
-                            .clipShape(.capsule)
-                            .padding()
-                    }
+                }
+                Button{
+                    // Make payment
+                } label: {
+                    Text("Make Payment")
+                        .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
+                        .frame(height: 80)
+                        .background(.black.opacity(0.8))
+                        .font(.system(size: 20, weight: .semibold))
+                        .fontDesign(.rounded)
+                        .foregroundStyle(.white)
+                        .clipShape(.rect(cornerRadius: 28))
+                        .padding(.horizontal)
                 }
             }
         }
@@ -112,40 +94,64 @@ struct CartView: View {
 
 
 struct CartProductView : View {
-    var product: ProductModel
+    var item: Item
+    var onDelete: (Item) -> Void
+    @EnvironmentObject var cartVM: CartViewModel
     
     var body : some View {
         HStack(alignment: .center, spacing: 20) {
-            Image(product.image.replacingOccurrences(of: ".jpg", with: ""))
-                .resizable()
+            ImageLoader(url: URL(string: item.image), placeholder: Image("5456_2"))
                 .scaledToFit()
-                .scaleEffect(2.1)
+                .scaleEffect(1.7)
                 .padding()
                 .frame(width: 80, height: 80)
-                .background(.gray.opacity(0.25))
+                .background(.white.opacity(0.5))
                 .clipShape(.circle)
-                .blendMode(.multiply)
-                .softOuterShadow()
+                .blendMode(.darken)
             
             VStack(alignment: .leading, spacing: 0) {
-                Text(product.name)
-                    .font(.system(size: 16))
+                
+                Spacer()
+                
+                Text(item.name)
+                    .font(.system(size: 14))
                     .fontDesign(.rounded)
                 
-                Text(product.category)
+                Spacer()
+                
+                Text(item.category.rawValue.localizedLowercase)
                     .font(.callout)
-                    .opacity(0.5)
+                    .foregroundStyle(.blue)
                     .fontDesign(.rounded)
-                                
+                    .fontWeight(.light)
+                
             }
             
-            Spacer()
             
-            Text( "\(product.unitPrice.formatted())")
-                .padding()
-                .background(.yellow)
-                .clipShape(.capsule)
-                .font(.system(size: 13))
+            HStack(alignment: .center) {
+                Text( "Rs.")
+                    .font(.system(size: 14))
+                    .fontDesign(.rounded)
+                    .fontWeight(.none)
+                Text( "\(item.unitPrice.formatted())")
+                    .font(.system(size: 18))
+                    .fontDesign(.rounded)
+                    .fontWeight(.semibold)
+            }
+            
+            
+            Button {
+                onDelete(item)
+            } label: {
+                Image(systemName: "trash")
+                    .font(.system(size: 24))
+                    .foregroundColor(.gray)
+            }
+        }
+        .padding()
+        .background {
+            Color.black.opacity(0.1)
+                .clipShape(.rect(cornerRadius: 24))
         }
     }
 }

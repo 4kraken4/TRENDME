@@ -14,6 +14,7 @@ class SignUpViewModel : ObservableObject {
     @Published var errorMessage : String = ""
     @Published var success : Bool = false
     @Published var isError : Bool = false
+    @Published var isAuthenticated: Bool = false
     
     func verifyLogin () {
         if username.isEmpty || password.isEmpty {
@@ -36,11 +37,15 @@ class SignUpViewModel : ObservableObject {
         self.errorMessage = errorMessage
     }
     
-    func login() {
-        WebService().login(username: username, password: password) { result in
+    func signUp() {
+        let defaults = UserDefaults.standard
+        AuthService().signUp(username: username, email: email, password: password) { result in
             switch result {
             case .success(let token):
-                print(token)
+                defaults.setValue(token, forKey: "token")
+                DispatchQueue.main.async {
+                    self.isAuthenticated = true
+                }
                 
             case.failure(let error):
                 print(error.localizedDescription)
