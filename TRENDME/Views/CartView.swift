@@ -26,10 +26,13 @@ struct CartView: View {
                         VStack(alignment: .leading) {
                             HStack {
                                 Text("Delivery Amount")
+                                    .foregroundStyle(.white)
                                 Spacer()
                                 Text("Free")
                                     .font(.system(size: 24, weight: .semibold))
                                     .fontDesign(.rounded)
+                                    .foregroundStyle(.white)
+                                    .padding(.horizontal, 6)
                             }
                             
                             Divider()
@@ -38,28 +41,30 @@ struct CartView: View {
                                 VStack (alignment: .leading){
                                     Text("Total Amount")
                                         .font(.system(size: 24))
+                                        .foregroundStyle(.white)
                                     
                                     Text("Rs. \(cartVM.total.formatted())")
                                         .font(.system(size: 36, weight: .semibold))
+                                        .foregroundStyle(.white)
                                 }
                                 
                                 Spacer()
                                 
-                                Image(systemName: "cart.fill")
+                                Image(systemName: cartVM.items.isEmpty ? "cart" : "cart.fill")
                                     .font(.system(size: 46))
-                                    .foregroundStyle(.black.opacity(0.5))
+                                    .foregroundStyle(.white)
                             }
                             
                         }
                         .padding(30)
                         .frame(maxWidth: .infinity)
-                        .background(.black.opacity(0.1))
+                        .background(.black.opacity(0.8))
                         .clipShape(.rect(cornerRadius: 30))
                         .padding()
                         
                         
                         VStack {
-                            ForEach (items, id: \.id) {item in
+                            ForEach (cartVM.items, id: \.id) {item in
                                 CartProductView(item: item, onDelete: { item in
                                     cartVM.removeFromCart(item: item)
                                 })
@@ -69,19 +74,15 @@ struct CartView: View {
                         .padding()
                     }
                 }
-                Button{
-                    // Make payment
-                } label: {
-                    Text("Make Payment")
-                        .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
-                        .frame(height: 80)
-                        .background(.black.opacity(0.8))
-                        .font(.system(size: 20, weight: .semibold))
-                        .fontDesign(.rounded)
-                        .foregroundStyle(.white)
-                        .clipShape(.rect(cornerRadius: 28))
-                        .padding(.horizontal)
+                
+                CustomButton(title: "Make Payment", icon: cartVM.items.isEmpty ? "cart" : "cart.fill") {
+                    
+                    cartVM.makeOrder()
+                    
                 }
+                .padding(.horizontal)
+                .hSpacing()
+                    .disableWithOpacity(cartVM.items.isEmpty)
             }
         }
     }

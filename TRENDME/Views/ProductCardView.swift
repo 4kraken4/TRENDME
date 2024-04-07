@@ -60,7 +60,7 @@ struct ProductCardView: View {
                         Button {
                             cartVM.addToCart(item: item)
                         } label: {
-                            Image(systemName: "basket")
+                            Image(systemName: "cart")
                                 .imageScale(.large)
                                 .frame(width: 90, height: 68)
                                 .background(.black)

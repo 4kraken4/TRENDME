@@ -18,11 +18,13 @@ struct CustomButton : View {
                 Text(title)
                 Image(systemName: icon)
             })
-            .fontWeight(.bold)
+            .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
+            .frame(height: 80)
+            .background(.black.opacity(0.8))
+            .font(.system(size: 20, weight: .semibold))
+            .fontDesign(.rounded)
             .foregroundStyle(.white)
-            .padding(.vertical, 12)
-            .padding(.horizontal, 35)
-            .background(.linearGradient(colors: [.blue, .cyan], startPoint: .top, endPoint: .bottom), in: .capsule)
+            .clipShape(.rect(cornerRadius: 24))
         }
     }
 }

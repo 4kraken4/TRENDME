@@ -11,6 +11,8 @@ class CollectionViewModel : ObservableObject {
     @Published var itemCollections: Items = []
     @Published var isLoading: Bool = false
     @Published var error: Error?
+    @Published var success : Bool = false
+    @Published var isError : Bool = false
     @Published var collectionName: String = "All"
     private let apiService = APIService.shared
     
@@ -25,8 +27,11 @@ class CollectionViewModel : ObservableObject {
                 switch result {
                 case .success(let data):
                     self.itemCollections = data
+                    self.isError = false
+                    self.success = true
                 case .failure(let error):
                     self.error = error
+                    self.isError = true
                 }
             }
         }
