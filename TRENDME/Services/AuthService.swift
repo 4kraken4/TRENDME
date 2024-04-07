@@ -7,32 +7,11 @@
 
 import Foundation
 
-enum AuthenticationError: Error {
-    case invalidCredentials
-    case custom(errorMessage: String)
-}
-
-struct LoginRequest: Codable {
-    let email: String
-    let password: String
-}
-
-struct SignUPRequest: Codable {
-    let username: String
-    let email: String
-    let password: String
-}
-
-struct LoginResponse : Codable {
-    let token: String
-    let refreshToken: String
-}
-
 class AuthService: ObservableObject {
     private let baseURL: String = AppConfig.baseUrl
-    func login(email: String, password: String, completion: @escaping (Result<String, AuthenticationError>) -> Void) {
+    func login(email: String, password: String, completion: @escaping (Result<String, ServerError>) -> Void) {
         guard let url = URL(string: "\(baseURL)/auth/login") else {
-            completion(.failure(.custom(errorMessage: "Incorrect URL")))
+            completion(.failure(.custom(errorMessage: "Incorrect URL", errorCode: nil)))
             return
         }
         
@@ -46,17 +25,17 @@ class AuthService: ObservableObject {
         URLSession.shared.dataTask(with: request) { (data, response, error) in
             
             guard let data = data, error == nil else {
-                completion(.failure(.custom(errorMessage: "No data")))
+                completion(.failure(.custom(errorMessage: "No data", errorCode: nil)))
                 return
             }
             
             guard let loginResponse = try? JSONDecoder().decode(LoginResponse.self, from: data) else {
-                completion(.failure(.invalidCredentials))
+                completion(.failure(.badCredentialsError))
                 return
             }
             
             guard let token = Optional(loginResponse.token)  else {
-                completion(.failure(.invalidCredentials))
+                completion(.failure(.custom(errorMessage: error?.localizedDescription ?? "", errorCode: nil)))
                 return
             }
             
@@ -65,9 +44,9 @@ class AuthService: ObservableObject {
     }
     
     
-    func signUp(username: String, email: String, password: String, completion: @escaping (Result<String, AuthenticationError>) -> Void) {
-        guard let url = URL(string: "http://localhost:55255/loginurl") else {
-            completion(.failure(.custom(errorMessage: "Incorrect URL")))
+    func signUp(username: String, email: String, password: String, completion: @escaping (Result<String, ServerError>) -> Void)  {
+        guard let url = URL(string: "\(baseURL)/auth/register") else {
+            completion(.failure(.custom(errorMessage: "Incorrect URL", errorCode: nil)))
             return
         }
         
@@ -79,23 +58,33 @@ class AuthService: ObservableObject {
         request.httpBody = try? JSONEncoder().encode(body)
         
         URLSession.shared.dataTask(with: request) { (data, response, error) in
-            
-            guard let data = data, error == nil else {
-                completion(.failure(.custom(errorMessage: "No data")))
-                return
-            }
-            
-            guard let loginResponse = try? JSONDecoder().decode(LoginResponse.self, from: data) else {
-                completion(.failure(.invalidCredentials))
-                return
-            }
-            
-            guard let token = Optional(loginResponse.token)  else {
-                completion(.failure(.invalidCredentials))
-                return
-            }
-            
-            completion(.success(token))
-        }.resume()
+                guard let httpResponse = response as? HTTPURLResponse else {
+                    completion(.failure(.custom(errorMessage: "No response", errorCode: nil)))
+                    return
+                }
+                
+                guard let data = data, error == nil else {
+                    completion(.failure(.custom(errorMessage: "No data", errorCode: nil)))
+                    return
+                }
+                
+                switch httpResponse.statusCode {
+                case 200...299:
+                    guard let loginResponse = try? JSONDecoder().decode(LoginResponse.self, from: data),
+                          let token = Optional(loginResponse.token) else {
+                        completion(.failure(.badCredentialsError))
+                        return
+                    }
+                    completion(.success(token))
+                default:
+                    if let errorResponse = try? JSONDecoder().decode(ErrorCodeResponse.self, from: data) {
+                        let errorCode = errorResponse.errorCode
+                        let errorMessage = errorResponse.errorMessage
+                        completion(.failure(.custom(errorMessage: errorMessage, errorCode: errorCode)))
+                    } else {
+                        completion(.failure(.custom(errorMessage: "Unknown server error", errorCode: nil)))
+                    }
+                }
+            }.resume()
     }
 }

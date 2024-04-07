@@ -22,11 +22,11 @@ struct SmallProductCardView : View {
         ZStack {
             
             ImageLoader(url: URL(string: item.image), placeholder: Image("5456_2"))
-            .scaledToFit()
-            .scaleEffect(0.7)
-            .rotationEffect(Angle(degrees: 0))
-            .blendMode(.multiply)
-            .offset(x: 40, y: -30)
+                .scaledToFit()
+                .scaleEffect(0.7)
+                .rotationEffect(Angle(degrees: 0))
+                .blendMode(.multiply)
+                .offset(x: 40, y: -30)
             
             
             ZStack {
@@ -58,7 +58,7 @@ struct SmallProductCardView : View {
                         Button {
                             cartVM.addToCart(item: item)
                         } label: {
-                            Image(systemName: "basket")
+                            Image(systemName: "cart")
                                 .imageScale(.large)
                                 .frame(width: 45, height: 40)
                                 .background(.black)

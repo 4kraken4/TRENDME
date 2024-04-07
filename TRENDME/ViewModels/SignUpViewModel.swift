@@ -15,6 +15,7 @@ class SignUpViewModel : ObservableObject {
     @Published var success : Bool = false
     @Published var isError : Bool = false
     @Published var isAuthenticated: Bool = false
+    private let apiService = APIService.shared
     
     func verifyLogin () {
         if username.isEmpty || password.isEmpty {
@@ -39,15 +40,17 @@ class SignUpViewModel : ObservableObject {
     
     func signUp() {
         let defaults = UserDefaults.standard
-        AuthService().signUp(username: username, email: email, password: password) { result in
+        apiService.postData(endpoint: "/auth/register", body: SignUPRequest(username: username, email: email, password: password)) { (result: Result<LoginResponse, Error>) in
             switch result {
-            case .success(let token):
-                defaults.setValue(token, forKey: "token")
+            case .success(let loginResponse):
+                guard let token = Optional(loginResponse.token) else {
+                    return
+                }
                 DispatchQueue.main.async {
                     self.isAuthenticated = true
                 }
                 
-            case.failure(let error):
+            case .failure(let error):
                 print(error.localizedDescription)
             }
         }

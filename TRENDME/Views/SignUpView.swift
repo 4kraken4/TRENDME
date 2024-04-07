@@ -42,13 +42,14 @@ struct SignUpView: View {
                     .padding(.top, 5)
                 
                 CustomButton(title: "Sign Up", icon: "arrow.right") {
-                    
-                    // Sign Up Logic
-                    
                     signUpVM.signUp()
                     
                 }.hSpacing(.trailing)
                     .disableWithOpacity(signUpVM.email.isEmpty || signUpVM.password.isEmpty || signUpVM.username.isEmpty)
+                
+                NavigationLink(destination: HomeView(), isActive: $signUpVM.isAuthenticated) {
+                    EmptyView()
+                }
                     
             }.padding(.top, 20)
             

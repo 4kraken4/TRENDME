@@ -13,6 +13,7 @@ class LoginViewModel : ObservableObject {
     @Published var success : Bool = false
     @Published var isError : Bool = false
     @Published var isAuthenticated: Bool = false
+    private let apiService = APIService.shared
     
     
     func verifyLogin () {
@@ -38,9 +39,13 @@ class LoginViewModel : ObservableObject {
     
     func login() {
         let defaults = UserDefaults.standard
-        AuthService().login(email: email, password: password) { result in
+        apiService.postData(endpoint: "/auth/login", body: LoginRequest(email: email, password: password)) {
+            (result: Result<LoginResponse, Error>) in
             switch result {
-            case .success(let token):
+            case .success(let loginResponse):
+                guard let token = Optional(loginResponse.token) else {
+                    return
+                }
                 defaults.setValue(token, forKey: "token")
                 DispatchQueue.main.async {
                     self.isAuthenticated = true

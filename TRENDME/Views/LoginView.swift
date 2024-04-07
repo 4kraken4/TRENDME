@@ -19,7 +19,7 @@ struct LoginView: View {
             Spacer(minLength: 0)
             
             Text("Login")
-                .font(.largeTitle)
+                .font(.system(size: 36))
                 .fontDesign(.rounded)
                 .fontWeight(.heavy)
             
