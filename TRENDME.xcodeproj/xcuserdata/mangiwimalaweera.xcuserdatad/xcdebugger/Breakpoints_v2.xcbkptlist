@@ -101,7 +101,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "C9194D08-4292-40C6-AF40-A1C4BE6CEB4B"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TRENDME/Services/AuthService.swift"
@@ -123,8 +123,8 @@
             filePath = "TRENDME/Views/HomeView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
+            startingLineNumber = "125"
+            endingLineNumber = "125"
             landmarkName = "body"
             landmarkType = "24">
             <Locations>
@@ -171,88 +171,13 @@
             filePath = "TRENDME/ViewModels/CartViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "83"
-            endingLineNumber = "83"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
             landmarkName = "fetchCartData()"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "34461531-ABC3-414B-8F37-D4CF80E4201E - 1403ab1a54de716a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;TRENDME.CartModel, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.fetchCartData() -&gt; ()"
-                  moduleName = "TRENDME"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "46"
-                  endingLineNumber = "46"
-                  offsetFromSymbolStart = "252">
-               </Location>
-               <Location
-                  uuid = "34461531-ABC3-414B-8F37-D4CF80E4201E - ceef2c1805e75dd6"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TRENDME.CartModel, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.fetchCartData() -&gt; ()"
-                  moduleName = "TRENDME"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "48"
-                  endingLineNumber = "48"
-                  offsetFromSymbolStart = "204">
-               </Location>
-               <Location
-                  uuid = "34461531-ABC3-414B-8F37-D4CF80E4201E - 1403ab1a54de714b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;TRENDME.CartModel, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.fetchCartData() -&gt; ()"
-                  moduleName = "TRENDME"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "47"
-                  endingLineNumber = "47"
-                  offsetFromSymbolStart = "252">
-               </Location>
-               <Location
-                  uuid = "34461531-ABC3-414B-8F37-D4CF80E4201E - ceef2c1805e75df7"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TRENDME.CartModel, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.fetchCartData() -&gt; ()"
-                  moduleName = "TRENDME"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "49"
-                  endingLineNumber = "49"
-                  offsetFromSymbolStart = "204">
-               </Location>
-               <Location
-                  uuid = "34461531-ABC3-414B-8F37-D4CF80E4201E - 27be3748761ebea0"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;TRENDME.CartModelResponse, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.fetchCartData() -&gt; ()"
-                  moduleName = "TRENDME"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "47"
-                  endingLineNumber = "47"
-                  offsetFromSymbolStart = "192">
-               </Location>
-               <Location
-                  uuid = "34461531-ABC3-414B-8F37-D4CF80E4201E - e589fdb494c2d506"
+                  uuid = "34461531-ABC3-414B-8F37-D4CF80E4201E - e589fdb494c2d0ea"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -262,27 +187,12 @@
                   urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "49"
-                  endingLineNumber = "49"
-                  offsetFromSymbolStart = "104">
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "108">
                </Location>
                <Location
-                  uuid = "34461531-ABC3-414B-8F37-D4CF80E4201E - 27be3748761ebd3c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;TRENDME.CartModelResponse, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.fetchCartData() -&gt; ()"
-                  moduleName = "TRENDME"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "43"
-                  endingLineNumber = "43"
-                  offsetFromSymbolStart = "192">
-               </Location>
-               <Location
-                  uuid = "34461531-ABC3-414B-8F37-D4CF80E4201E - e589fdb494c2d582"
+                  uuid = "34461531-ABC3-414B-8F37-D4CF80E4201E - e589fdb494c2d0ea"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -292,31 +202,31 @@
                   urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "45"
-                  endingLineNumber = "45"
-                  offsetFromSymbolStart = "104">
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "144">
                </Location>
                <Location
-                  uuid = "34461531-ABC3-414B-8F37-D4CF80E4201E - 27be3748761eba25"
+                  uuid = "34461531-ABC3-414B-8F37-D4CF80E4201E - e589fdb494c2d0ea"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;TRENDME.CartModelResponse, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.fetchCartData() -&gt; ()"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TRENDME.CartModelResponse, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.fetchCartData() -&gt; ()"
                   moduleName = "TRENDME"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "82"
-                  endingLineNumber = "82"
-                  offsetFromSymbolStart = "164">
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "876">
                </Location>
                <Location
-                  uuid = "34461531-ABC3-414B-8F37-D4CF80E4201E - e589fdb494c2d08b"
+                  uuid = "34461531-ABC3-414B-8F37-D4CF80E4201E - 27be3748761ebbeb"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TRENDME.CartModelResponse, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.fetchCartData() -&gt; ()"
+                  symbolName = "closure #1 (Swift.Result&lt;TRENDME.CartModelResponse, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.fetchCartData() -&gt; ()"
                   moduleName = "TRENDME"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
@@ -324,25 +234,10 @@
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "84"
                   endingLineNumber = "84"
-                  offsetFromSymbolStart = "64">
-               </Location>
-               <Location
-                  uuid = "34461531-ABC3-414B-8F37-D4CF80E4201E - 27be3748761eba25"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;TRENDME.CartModelResponse, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.fetchCartData() -&gt; ()"
-                  moduleName = "TRENDME"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "82"
-                  endingLineNumber = "82"
                   offsetFromSymbolStart = "192">
                </Location>
                <Location
-                  uuid = "34461531-ABC3-414B-8F37-D4CF80E4201E - e589fdb494c2d08b"
+                  uuid = "34461531-ABC3-414B-8F37-D4CF80E4201E - e589fdb494c2d0c9"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -352,23 +247,8 @@
                   urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "84"
-                  endingLineNumber = "84"
-                  offsetFromSymbolStart = "76">
-               </Location>
-               <Location
-                  uuid = "34461531-ABC3-414B-8F37-D4CF80E4201E - e589fdb494c2d08b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TRENDME.CartModelResponse, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.fetchCartData() -&gt; ()"
-                  moduleName = "TRENDME"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "84"
-                  endingLineNumber = "84"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
                   offsetFromSymbolStart = "108">
                </Location>
             </Locations>
@@ -384,43 +264,13 @@
             filePath = "TRENDME/ViewModels/CartViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "84"
-            endingLineNumber = "84"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
             landmarkName = "fetchCartData()"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "CA0364EB-9200-4552-A31C-67A47940DE73 - ceef2c1805e75dd6"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TRENDME.CartModel, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.fetchCartData() -&gt; ()"
-                  moduleName = "TRENDME"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "48"
-                  endingLineNumber = "48"
-                  offsetFromSymbolStart = "204">
-               </Location>
-               <Location
-                  uuid = "CA0364EB-9200-4552-A31C-67A47940DE73 - ceef2c1805e75dd6"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TRENDME.CartModel, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.fetchCartData() -&gt; ()"
-                  moduleName = "TRENDME"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "48"
-                  endingLineNumber = "48"
-                  offsetFromSymbolStart = "272">
-               </Location>
-               <Location
-                  uuid = "CA0364EB-9200-4552-A31C-67A47940DE73 - e589fdb494c2d582"
+                  uuid = "CA0364EB-9200-4552-A31C-67A47940DE73 - e589fdb494c2d0ea"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -430,147 +280,12 @@
                   urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "45"
-                  endingLineNumber = "45"
-                  offsetFromSymbolStart = "104">
-               </Location>
-               <Location
-                  uuid = "CA0364EB-9200-4552-A31C-67A47940DE73 - e589fdb494c2d582"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TRENDME.CartModelResponse, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.fetchCartData() -&gt; ()"
-                  moduleName = "TRENDME"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "45"
-                  endingLineNumber = "45"
-                  offsetFromSymbolStart = "124">
-               </Location>
-               <Location
-                  uuid = "CA0364EB-9200-4552-A31C-67A47940DE73 - e589fdb494c2d582"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TRENDME.CartModelResponse, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.fetchCartData() -&gt; ()"
-                  moduleName = "TRENDME"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "45"
-                  endingLineNumber = "45"
-                  offsetFromSymbolStart = "544">
-               </Location>
-               <Location
-                  uuid = "CA0364EB-9200-4552-A31C-67A47940DE73 - e589fdb494c2d08b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TRENDME.CartModelResponse, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.fetchCartData() -&gt; ()"
-                  moduleName = "TRENDME"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "84"
-                  endingLineNumber = "84"
-                  offsetFromSymbolStart = "64">
-               </Location>
-               <Location
-                  uuid = "CA0364EB-9200-4552-A31C-67A47940DE73 - e589fdb494c2d08b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TRENDME.CartModelResponse, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.fetchCartData() -&gt; ()"
-                  moduleName = "TRENDME"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "84"
-                  endingLineNumber = "84"
-                  offsetFromSymbolStart = "100">
-               </Location>
-               <Location
-                  uuid = "CA0364EB-9200-4552-A31C-67A47940DE73 - e589fdb494c2d08b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TRENDME.CartModelResponse, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.fetchCartData() -&gt; ()"
-                  moduleName = "TRENDME"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "84"
-                  endingLineNumber = "84"
-                  offsetFromSymbolStart = "208">
-               </Location>
-               <Location
-                  uuid = "CA0364EB-9200-4552-A31C-67A47940DE73 - e589fdb494c2d08b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TRENDME.CartModelResponse, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.fetchCartData() -&gt; ()"
-                  moduleName = "TRENDME"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "84"
-                  endingLineNumber = "84"
-                  offsetFromSymbolStart = "76">
-               </Location>
-               <Location
-                  uuid = "CA0364EB-9200-4552-A31C-67A47940DE73 - e589fdb494c2d08b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TRENDME.CartModelResponse, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.fetchCartData() -&gt; ()"
-                  moduleName = "TRENDME"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "84"
-                  endingLineNumber = "84"
-                  offsetFromSymbolStart = "112">
-               </Location>
-               <Location
-                  uuid = "CA0364EB-9200-4552-A31C-67A47940DE73 - e589fdb494c2d08b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TRENDME.CartModelResponse, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.fetchCartData() -&gt; ()"
-                  moduleName = "TRENDME"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "84"
-                  endingLineNumber = "84"
-                  offsetFromSymbolStart = "244">
-               </Location>
-               <Location
-                  uuid = "CA0364EB-9200-4552-A31C-67A47940DE73 - e589fdb494c2d08b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TRENDME.CartModelResponse, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.fetchCartData() -&gt; ()"
-                  moduleName = "TRENDME"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "84"
-                  endingLineNumber = "84"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
                   offsetFromSymbolStart = "108">
                </Location>
                <Location
-                  uuid = "CA0364EB-9200-4552-A31C-67A47940DE73 - e589fdb494c2d08b"
+                  uuid = "CA0364EB-9200-4552-A31C-67A47940DE73 - e589fdb494c2d0ea"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -580,12 +295,12 @@
                   urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "84"
-                  endingLineNumber = "84"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
                   offsetFromSymbolStart = "144">
                </Location>
                <Location
-                  uuid = "CA0364EB-9200-4552-A31C-67A47940DE73 - e589fdb494c2d08b"
+                  uuid = "CA0364EB-9200-4552-A31C-67A47940DE73 - e589fdb494c2d0ea"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -595,8 +310,53 @@
                   urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "84"
-                  endingLineNumber = "84"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "876">
+               </Location>
+               <Location
+                  uuid = "CA0364EB-9200-4552-A31C-67A47940DE73 - e589fdb494c2d0c9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TRENDME.CartModelResponse, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.fetchCartData() -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "CA0364EB-9200-4552-A31C-67A47940DE73 - e589fdb494c2d0c9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TRENDME.CartModelResponse, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.fetchCartData() -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  uuid = "CA0364EB-9200-4552-A31C-67A47940DE73 - e589fdb494c2d0c9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TRENDME.CartModelResponse, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.fetchCartData() -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
                   offsetFromSymbolStart = "876">
                </Location>
             </Locations>
@@ -612,40 +372,70 @@
             filePath = "TRENDME/ViewModels/CartViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "85"
-            endingLineNumber = "85"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
             landmarkName = "fetchCartData()"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "C8D65533-5C15-4168-A0A8-3CC0E9561776 - ceef2c1805e75dd6"
+                  uuid = "C8D65533-5C15-4168-A0A8-3CC0E9561776 - e589fdb494c2d0c9"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TRENDME.CartModel, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.fetchCartData() -&gt; ()"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TRENDME.CartModelResponse, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.fetchCartData() -&gt; ()"
                   moduleName = "TRENDME"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "48"
-                  endingLineNumber = "48"
-                  offsetFromSymbolStart = "204">
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "156">
                </Location>
                <Location
-                  uuid = "C8D65533-5C15-4168-A0A8-3CC0E9561776 - ceef2c1805e75dd6"
+                  uuid = "C8D65533-5C15-4168-A0A8-3CC0E9561776 - e589fdb494c2d0c9"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TRENDME.CartModel, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.fetchCartData() -&gt; ()"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TRENDME.CartModelResponse, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.fetchCartData() -&gt; ()"
                   moduleName = "TRENDME"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "48"
-                  endingLineNumber = "48"
-                  offsetFromSymbolStart = "272">
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "C8D65533-5C15-4168-A0A8-3CC0E9561776 - e589fdb494c2d0c9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TRENDME.CartModelResponse, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.fetchCartData() -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  uuid = "C8D65533-5C15-4168-A0A8-3CC0E9561776 - e589fdb494c2d0c9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TRENDME.CartModelResponse, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.fetchCartData() -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "876">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -660,8 +450,8 @@
             filePath = "TRENDME/ViewModels/CartViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "95"
-            endingLineNumber = "95"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
             landmarkName = "fetchCartData()"
             landmarkType = "7">
          </BreakpointContent>
@@ -676,58 +466,13 @@
             filePath = "TRENDME/ViewModels/CartViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "82"
-            endingLineNumber = "82"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
             landmarkName = "fetchCartData()"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "730DA22F-B11E-4B5C-9A4F-298321D931D8 - cf4e7a3ca6e06720"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "TRENDME.CartViewModel.fetchCartData() -&gt; ()"
-                  moduleName = "TRENDME"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "45"
-                  endingLineNumber = "45"
-                  offsetFromSymbolStart = "36">
-               </Location>
-               <Location
-                  uuid = "730DA22F-B11E-4B5C-9A4F-298321D931D8 - 1403ab1a54de716a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;TRENDME.CartModel, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.fetchCartData() -&gt; ()"
-                  moduleName = "TRENDME"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "46"
-                  endingLineNumber = "46"
-                  offsetFromSymbolStart = "252">
-               </Location>
-               <Location
-                  uuid = "730DA22F-B11E-4B5C-9A4F-298321D931D8 - cf4e7a3ca6e063c4"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "TRENDME.CartViewModel.fetchCartData() -&gt; ()"
-                  moduleName = "TRENDME"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "81"
-                  endingLineNumber = "81"
-                  offsetFromSymbolStart = "32">
-               </Location>
-               <Location
-                  uuid = "730DA22F-B11E-4B5C-9A4F-298321D931D8 - 27be3748761eba25"
+                  uuid = "730DA22F-B11E-4B5C-9A4F-298321D931D8 - 27be3748761ebbc4"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -737,12 +482,27 @@
                   urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "82"
-                  endingLineNumber = "82"
-                  offsetFromSymbolStart = "164">
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "192">
                </Location>
                <Location
-                  uuid = "730DA22F-B11E-4B5C-9A4F-298321D931D8 - cf4e7a3ca6e063c4"
+                  uuid = "730DA22F-B11E-4B5C-9A4F-298321D931D8 - e589fdb494c2d0ea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TRENDME.CartModelResponse, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.fetchCartData() -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "730DA22F-B11E-4B5C-9A4F-298321D931D8 - cf4e7a3ca6e06206"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -752,12 +512,12 @@
                   urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "81"
-                  endingLineNumber = "81"
-                  offsetFromSymbolStart = "36">
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "184">
                </Location>
                <Location
-                  uuid = "730DA22F-B11E-4B5C-9A4F-298321D931D8 - 27be3748761eba25"
+                  uuid = "730DA22F-B11E-4B5C-9A4F-298321D931D8 - 27be3748761ebbeb"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -767,8 +527,8 @@
                   urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "82"
-                  endingLineNumber = "82"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
                   offsetFromSymbolStart = "192">
                </Location>
             </Locations>
@@ -778,7 +538,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "57819E8A-091E-4BE9-9709-98467177C34C"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TRENDME/Helpers/ApiService.swift"
@@ -826,7 +586,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "C2682A57-44F6-47A1-87C9-6CC73C16FF28"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TRENDME/Helpers/ApiService.swift"
@@ -896,8 +656,8 @@
             filePath = "TRENDME/ViewModels/CartViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
             landmarkName = "upsertCart()"
             landmarkType = "7">
             <Locations>
@@ -929,6 +689,21 @@
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "49"
                   endingLineNumber = "49"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "4891678F-8DF2-4E09-8910-D5C116792E48 - 583e8210a99a6be3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TRENDME.CartViewModel.upsertCart() -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
                   offsetFromSymbolStart = "36">
                </Location>
             </Locations>
@@ -1040,8 +815,8 @@
             filePath = "TRENDME/ViewModels/CartViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "53"
-            endingLineNumber = "53"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
             landmarkName = "upsertCart()"
             landmarkType = "7">
             <Locations>
@@ -1103,8 +878,8 @@
             filePath = "TRENDME/ViewModels/CartViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "54"
-            endingLineNumber = "54"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
             landmarkName = "upsertCart()"
             landmarkType = "7">
             <Locations>
@@ -1181,8 +956,8 @@
             filePath = "TRENDME/ViewModels/CartViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "67"
-            endingLineNumber = "67"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
             landmarkName = "upsertCart()"
             landmarkType = "7">
             <Locations>
@@ -1244,8 +1019,8 @@
             filePath = "TRENDME/ViewModels/CartViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "66"
-            endingLineNumber = "66"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
             landmarkName = "upsertCart()"
             landmarkType = "7">
             <Locations>
@@ -1346,14 +1121,14 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "097D6357-FC76-475E-B4E7-A7D9228147FA"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TRENDME/ViewModels/CartViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
             landmarkName = "deleteCart()"
             landmarkType = "7">
             <Locations>
@@ -1415,8 +1190,8 @@
             filePath = "TRENDME/ViewModels/CartViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
             landmarkName = "upsertCart()"
             landmarkType = "7">
          </BreakpointContent>
@@ -1431,8 +1206,8 @@
             filePath = "TRENDME/ViewModels/CartViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "64"
-            endingLineNumber = "64"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
             landmarkName = "upsertCart()"
             landmarkType = "7">
             <Locations>
@@ -1466,6 +1241,36 @@
                   endingLineNumber = "64"
                   offsetFromSymbolStart = "192">
                </Location>
+               <Location
+                  uuid = "93DFDF15-686C-4DA5-904E-59598B039452 - 583e8210a99a6d91"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TRENDME.CartViewModel.upsertCart() -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "848">
+               </Location>
+               <Location
+                  uuid = "93DFDF15-686C-4DA5-904E-59598B039452 - a15aeaf01b71b2fb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Result&lt;TRENDME.CartModelResponse, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.upsertCart() -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "192">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -1479,8 +1284,8 @@
             filePath = "TRENDME/ViewModels/CartViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
             landmarkName = "upsertCart()"
             landmarkType = "7">
             <Locations>
@@ -1514,6 +1319,36 @@
                   endingLineNumber = "52"
                   offsetFromSymbolStart = "192">
                </Location>
+               <Location
+                  uuid = "0D5FB015-EB2D-42DD-9E1B-CE7F6532EA0C - 583e8210a99a6a2d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TRENDME.CartViewModel.upsertCart() -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "304">
+               </Location>
+               <Location
+                  uuid = "0D5FB015-EB2D-42DD-9E1B-CE7F6532EA0C - c8126b899c80df08"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;TRENDME.CartModelResponse, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.upsertCart() -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "192">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -1521,7 +1356,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "91B76DD7-AFC4-43DF-9499-F8E58EBEE94F"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TRENDME/Helpers/ApiService.swift"
@@ -1537,7 +1372,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "04284287-B284-45D7-9A60-C964E6970BE1"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TRENDME/Helpers/ApiService.swift"
@@ -1553,14 +1388,14 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "DF0ED736-7D5E-40CC-A689-C13D70448136"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TRENDME/ViewModels/CartViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
             landmarkName = "removeFromCart(item:)"
             landmarkType = "7">
             <Locations>
@@ -1637,8 +1472,8 @@
             filePath = "TRENDME/ViewModels/CartViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
             landmarkName = "removeFromCart(item:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1653,8 +1488,8 @@
             filePath = "TRENDME/ViewModels/CartViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
             landmarkName = "removeFromCart(item:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1663,14 +1498,14 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "D108D986-CD95-4E90-BCA4-9F383D7F74EE"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TRENDME/ViewModels/CartViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
             landmarkName = "deleteCart()"
             landmarkType = "7">
             <Locations>
@@ -1741,14 +1576,14 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "BDC8D2AE-6FF5-4D5C-B9A9-81BB71A1B6EE"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TRENDME/ViewModels/CartViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
             landmarkName = "deleteCart()"
             landmarkType = "7">
             <Locations>
@@ -1804,14 +1639,14 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "76C428D0-95CC-43A7-BFDC-8B2194F3B232"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TRENDME/ViewModels/CartViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
             landmarkName = "deleteCart()"
             landmarkType = "7">
             <Locations>
@@ -1888,8 +1723,8 @@
             filePath = "TRENDME/ViewModels/CartViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
             landmarkName = "removeFromCart(item:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1914,7 +1749,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "CFCBD2A1-2EB0-4EEE-A2C1-8001DE836CE4"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TRENDME/Helpers/ApiService.swift"
@@ -1930,7 +1765,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "53ADF758-5688-4558-8F6B-5D36D1DB2FA4"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TRENDME/Helpers/ApiService.swift"
@@ -1940,411 +1775,6 @@
             endingLineNumber = "24"
             landmarkName = "deleteData(endpoint:completion:)"
             landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "B48978A5-F327-441D-B07F-041496F4A15A"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "TRENDME/ViewModels/CartViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "120"
-            endingLineNumber = "120"
-            landmarkName = "makeOrder()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "B48978A5-F327-441D-B07F-041496F4A15A - b93fd8917ccd4293"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "TRENDME.CartViewModel.makeOrder() -&gt; ()"
-                  moduleName = "TRENDME"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "102"
-                  endingLineNumber = "102"
-                  offsetFromSymbolStart = "36">
-               </Location>
-               <Location
-                  uuid = "B48978A5-F327-441D-B07F-041496F4A15A - 1aa7a35b544191f9"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;TRENDME.OrderModel, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.makeOrder() -&gt; ()"
-                  moduleName = "TRENDME"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "103"
-                  endingLineNumber = "103"
-                  offsetFromSymbolStart = "192">
-               </Location>
-               <Location
-                  uuid = "B48978A5-F327-441D-B07F-041496F4A15A - b93fd8917ccd40e4"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "TRENDME.CartViewModel.makeOrder() -&gt; ()"
-                  moduleName = "TRENDME"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "121"
-                  endingLineNumber = "121"
-                  offsetFromSymbolStart = "636">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "23FD5017-2469-42E5-96B8-FAF7D23A4E8A"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "TRENDME/ViewModels/CartViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "103"
-            endingLineNumber = "103"
-            landmarkName = "makeOrder()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "23FD5017-2469-42E5-96B8-FAF7D23A4E8A - b93fd8917ccd42b2"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "TRENDME.CartViewModel.makeOrder() -&gt; ()"
-                  moduleName = "TRENDME"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "103"
-                  endingLineNumber = "103"
-                  offsetFromSymbolStart = "180">
-               </Location>
-               <Location
-                  uuid = "23FD5017-2469-42E5-96B8-FAF7D23A4E8A - 1aa7a35b5441919e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;TRENDME.OrderModel, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.makeOrder() -&gt; ()"
-                  moduleName = "TRENDME"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "104"
-                  endingLineNumber = "104"
-                  offsetFromSymbolStart = "192">
-               </Location>
-               <Location
-                  uuid = "23FD5017-2469-42E5-96B8-FAF7D23A4E8A - b93fd8917ccd42b2"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "TRENDME.CartViewModel.makeOrder() -&gt; ()"
-                  moduleName = "TRENDME"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "103"
-                  endingLineNumber = "103"
-                  offsetFromSymbolStart = "120">
-               </Location>
-               <Location
-                  uuid = "23FD5017-2469-42E5-96B8-FAF7D23A4E8A - f448c37ea8764f26"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;TRENDME.Order, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.makeOrder() -&gt; ()"
-                  moduleName = "TRENDME"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "104"
-                  endingLineNumber = "104"
-                  offsetFromSymbolStart = "192">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "0C045D64-D8DA-461A-ADD5-886923332876"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "TRENDME/ViewModels/CartViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "105"
-            endingLineNumber = "105"
-            landmarkName = "makeOrder()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "0C045D64-D8DA-461A-ADD5-886923332876 - fc417eb2e1dab034"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TRENDME.OrderModel, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.makeOrder() -&gt; ()"
-                  moduleName = "TRENDME"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "106"
-                  endingLineNumber = "106"
-                  offsetFromSymbolStart = "104">
-               </Location>
-               <Location
-                  uuid = "0C045D64-D8DA-461A-ADD5-886923332876 - fc417eb2e1dab034"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TRENDME.OrderModel, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.makeOrder() -&gt; ()"
-                  moduleName = "TRENDME"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "106"
-                  endingLineNumber = "106"
-                  offsetFromSymbolStart = "144">
-               </Location>
-               <Location
-                  uuid = "0C045D64-D8DA-461A-ADD5-886923332876 - fc417eb2e1dab034"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TRENDME.OrderModel, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.makeOrder() -&gt; ()"
-                  moduleName = "TRENDME"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "106"
-                  endingLineNumber = "106"
-                  offsetFromSymbolStart = "928">
-               </Location>
-               <Location
-                  uuid = "0C045D64-D8DA-461A-ADD5-886923332876 - 47bdde17b0d6beef"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TRENDME.Order, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.makeOrder() -&gt; ()"
-                  moduleName = "TRENDME"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "106"
-                  endingLineNumber = "106"
-                  offsetFromSymbolStart = "104">
-               </Location>
-               <Location
-                  uuid = "0C045D64-D8DA-461A-ADD5-886923332876 - 47bdde17b0d6beef"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TRENDME.Order, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.makeOrder() -&gt; ()"
-                  moduleName = "TRENDME"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "106"
-                  endingLineNumber = "106"
-                  offsetFromSymbolStart = "144">
-               </Location>
-               <Location
-                  uuid = "0C045D64-D8DA-461A-ADD5-886923332876 - 47bdde17b0d6beef"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TRENDME.Order, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.makeOrder() -&gt; ()"
-                  moduleName = "TRENDME"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "106"
-                  endingLineNumber = "106"
-                  offsetFromSymbolStart = "928">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "4927A720-6275-409C-8961-CB24046905ED"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "TRENDME/ViewModels/CartViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "107"
-            endingLineNumber = "107"
-            landmarkName = "makeOrder()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "4927A720-6275-409C-8961-CB24046905ED - fc417eb2e1dab015"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TRENDME.OrderModel, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.makeOrder() -&gt; ()"
-                  moduleName = "TRENDME"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "107"
-                  endingLineNumber = "107"
-                  offsetFromSymbolStart = "160">
-               </Location>
-               <Location
-                  uuid = "4927A720-6275-409C-8961-CB24046905ED - 47bdde17b0d6bece"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TRENDME.Order, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.makeOrder() -&gt; ()"
-                  moduleName = "TRENDME"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "107"
-                  endingLineNumber = "107"
-                  offsetFromSymbolStart = "160">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "DAAD2F40-5D72-4C0E-8105-7F073D3A874E"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "TRENDME/ViewModels/CartViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "106"
-            endingLineNumber = "106"
-            landmarkName = "makeOrder()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "DAAD2F40-5D72-4C0E-8105-7F073D3A874E - fc417eb2e1dab034"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TRENDME.OrderModel, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.makeOrder() -&gt; ()"
-                  moduleName = "TRENDME"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "106"
-                  endingLineNumber = "106"
-                  offsetFromSymbolStart = "104">
-               </Location>
-               <Location
-                  uuid = "DAAD2F40-5D72-4C0E-8105-7F073D3A874E - fc417eb2e1dab034"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TRENDME.OrderModel, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.makeOrder() -&gt; ()"
-                  moduleName = "TRENDME"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "106"
-                  endingLineNumber = "106"
-                  offsetFromSymbolStart = "144">
-               </Location>
-               <Location
-                  uuid = "DAAD2F40-5D72-4C0E-8105-7F073D3A874E - fc417eb2e1dab034"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TRENDME.OrderModel, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.makeOrder() -&gt; ()"
-                  moduleName = "TRENDME"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "106"
-                  endingLineNumber = "106"
-                  offsetFromSymbolStart = "928">
-               </Location>
-               <Location
-                  uuid = "DAAD2F40-5D72-4C0E-8105-7F073D3A874E - 47bdde17b0d6beef"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TRENDME.Order, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.makeOrder() -&gt; ()"
-                  moduleName = "TRENDME"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "106"
-                  endingLineNumber = "106"
-                  offsetFromSymbolStart = "104">
-               </Location>
-               <Location
-                  uuid = "DAAD2F40-5D72-4C0E-8105-7F073D3A874E - 47bdde17b0d6beef"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TRENDME.Order, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.makeOrder() -&gt; ()"
-                  moduleName = "TRENDME"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "106"
-                  endingLineNumber = "106"
-                  offsetFromSymbolStart = "144">
-               </Location>
-               <Location
-                  uuid = "DAAD2F40-5D72-4C0E-8105-7F073D3A874E - 47bdde17b0d6beef"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TRENDME.Order, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.makeOrder() -&gt; ()"
-                  moduleName = "TRENDME"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "106"
-                  endingLineNumber = "106"
-                  offsetFromSymbolStart = "928">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2367,19 +1797,19 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "3EE6008A-63AE-414C-AE1F-F9540BA2FB6E"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TRENDME/ViewModels/SearchViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
             landmarkName = "search(category:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "3EE6008A-63AE-414C-AE1F-F9540BA2FB6E - b754d776a45ccfc9"
+                  uuid = "3EE6008A-63AE-414C-AE1F-F9540BA2FB6E - b754d776a45ccc4d"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -2389,12 +1819,12 @@
                   urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/SearchViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
                   offsetFromSymbolStart = "208">
                </Location>
                <Location
-                  uuid = "3EE6008A-63AE-414C-AE1F-F9540BA2FB6E - 2e671e9be0488d0a"
+                  uuid = "3EE6008A-63AE-414C-AE1F-F9540BA2FB6E - 2e671e9be0488e8e"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -2404,12 +1834,12 @@
                   urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/SearchViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "25"
-                  endingLineNumber = "25"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
                   offsetFromSymbolStart = "76">
                </Location>
                <Location
-                  uuid = "3EE6008A-63AE-414C-AE1F-F9540BA2FB6E - a11e57d426760c8c"
+                  uuid = "3EE6008A-63AE-414C-AE1F-F9540BA2FB6E - a11e57d426760f08"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -2419,12 +1849,12 @@
                   urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/SearchViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
                   offsetFromSymbolStart = "208">
                </Location>
                <Location
-                  uuid = "3EE6008A-63AE-414C-AE1F-F9540BA2FB6E - 6c5b160533fa46b2"
+                  uuid = "3EE6008A-63AE-414C-AE1F-F9540BA2FB6E - 6c5b160533fa4536"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -2434,75 +1864,12 @@
                   urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/SearchViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "25"
-                  endingLineNumber = "25"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
                   offsetFromSymbolStart = "76">
                </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "6EE53565-DE5C-415F-80BC-6B369BEADE23"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "TRENDME/ViewModels/SearchViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
-            landmarkName = "search(category:)"
-            landmarkType = "7">
-            <Locations>
                <Location
-                  uuid = "6EE53565-DE5C-415F-80BC-6B369BEADE23 - 21ffe244b12d3909"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "TRENDME.SearchViewModel.search() -&gt; ()"
-                  moduleName = "TRENDME"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/SearchViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "23"
-                  endingLineNumber = "23"
-                  offsetFromSymbolStart = "88">
-               </Location>
-               <Location
-                  uuid = "6EE53565-DE5C-415F-80BC-6B369BEADE23 - b754d776a45ccfc9"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;TRENDME.Item&gt;, Swift.Error&gt;) -&gt; () in TRENDME.SearchViewModel.search() -&gt; ()"
-                  moduleName = "TRENDME"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/SearchViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "208">
-               </Location>
-               <Location
-                  uuid = "6EE53565-DE5C-415F-80BC-6B369BEADE23 - 75e26e73f5124709"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "TRENDME.SearchViewModel.search(category: Swift.String) -&gt; ()"
-                  moduleName = "TRENDME"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/SearchViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "23"
-                  endingLineNumber = "23"
-                  offsetFromSymbolStart = "112">
-               </Location>
-               <Location
-                  uuid = "6EE53565-DE5C-415F-80BC-6B369BEADE23 - a11e57d426760c8c"
+                  uuid = "3EE6008A-63AE-414C-AE1F-F9540BA2FB6E - a11e57d426760f29"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -2512,24 +1879,24 @@
                   urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/SearchViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
                   offsetFromSymbolStart = "208">
                </Location>
                <Location
-                  uuid = "6EE53565-DE5C-415F-80BC-6B369BEADE23 - 75e26e73f5124709"
+                  uuid = "3EE6008A-63AE-414C-AE1F-F9540BA2FB6E - 6c5b160533fa45c9"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "TRENDME.SearchViewModel.search(category: Swift.String) -&gt; ()"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;Swift.Array&lt;TRENDME.Item&gt;, Swift.Error&gt;) -&gt; () in TRENDME.SearchViewModel.search(category: Swift.String) -&gt; ()"
                   moduleName = "TRENDME"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/SearchViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "23"
-                  endingLineNumber = "23"
-                  offsetFromSymbolStart = "104">
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "76">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -2538,14 +1905,14 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "310FB6B0-C020-4807-BEF1-3F27F5886989"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TRENDME/ViewModels/SearchViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
             landmarkName = "search(category:)"
             landmarkType = "7">
             <Locations>
@@ -2579,23 +1946,1151 @@
                   endingLineNumber = "25"
                   offsetFromSymbolStart = "76">
                </Location>
+               <Location
+                  uuid = "310FB6B0-C020-4807-BEF1-3F27F5886989 - 6c5b160533fa45c9"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;Swift.Array&lt;TRENDME.Item&gt;, Swift.Error&gt;) -&gt; () in TRENDME.SearchViewModel.search(category: Swift.String) -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/SearchViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "76">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "143E0F8D-3215-4944-A637-FBCA5E7CE3A7"
+            uuid = "E6C3160B-B46B-43D6-A56B-97C5FC3E50FC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TRENDME/Helpers/ApiService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "fetchData(endpoint:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D75F05A5-431E-4FDC-AF20-2B0AC91FC127"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TRENDME/Views/CollectionView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "44"
-            endingLineNumber = "44"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
             landmarkName = "body"
             landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "D75F05A5-431E-4FDC-AF20-2B0AC91FC127 - f7a6a7b026622af7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.userActivity(_: Swift.String, isActive: Swift.Bool, _: (__C.NSUserActivity) -&gt; ()) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0)&gt; in closure #2 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.background&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(alignment: SwiftUI.Alignment, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Spacer, Swift.Optional&lt;SwiftUI.NavigationLink&lt;SwiftUI.ZStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.offset(x: CoreGraphics.CGFloat, y: CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.foregroundStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.ShapeStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0)&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.environmentObject&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Combine.ObservableObject&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;&gt;)&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.background&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(alignment: SwiftUI.Alignment, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0)&gt;&gt;)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.LazyVGrid&lt;SwiftUI._ConditionalContent&lt;SwiftUI.ForEach&lt;Swift.Array&lt;TRENDME.Item&gt;, Swift.String, &lt;&lt;opaque return type of SwiftUI.View.environmentObject&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Combine.ObservableObject&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;, SwiftUI.ForEach&lt;Swift.Array&lt;TRENDME.Item&gt;, Swift.String, &lt;&lt;opaque return type of SwiftUI.View.environmentObject&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Combine.ObservableObject&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;&gt;&gt;)&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.sheet&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, onDismiss: Swift.Optional&lt;() -&gt; ()&gt;, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; SwiftUI.ScrollView&lt;&lt;&lt;opaque return type of SwiftUI.View.sheet&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, onDismiss: Swift.Optional&lt;() -&gt; ()&gt;, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt; in TRENDME.CollectionView.body.getter : some"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/Views/CollectionView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  uuid = "D75F05A5-431E-4FDC-AF20-2B0AC91FC127 - f7a6a7b026622ad6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.userActivity(_: Swift.String, isActive: Swift.Bool, _: (__C.NSUserActivity) -&gt; ()) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0)&gt; in closure #2 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.background&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(alignment: SwiftUI.Alignment, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Spacer, Swift.Optional&lt;SwiftUI.NavigationLink&lt;SwiftUI.ZStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.offset(x: CoreGraphics.CGFloat, y: CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.foregroundStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.ShapeStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0)&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.environmentObject&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Combine.ObservableObject&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;&gt;)&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.background&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(alignment: SwiftUI.Alignment, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0)&gt;&gt;)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.LazyVGrid&lt;SwiftUI._ConditionalContent&lt;SwiftUI.ForEach&lt;Swift.Array&lt;TRENDME.Item&gt;, Swift.String, &lt;&lt;opaque return type of SwiftUI.View.environmentObject&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Combine.ObservableObject&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;, SwiftUI.ForEach&lt;Swift.Array&lt;TRENDME.Item&gt;, Swift.String, &lt;&lt;opaque return type of SwiftUI.View.environmentObject&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Combine.ObservableObject&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;&gt;&gt;)&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.sheet&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, onDismiss: Swift.Optional&lt;() -&gt; ()&gt;, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; SwiftUI.ScrollView&lt;&lt;&lt;opaque return type of SwiftUI.View.sheet&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, onDismiss: Swift.Optional&lt;() -&gt; ()&gt;, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt; in TRENDME.CollectionView.body.getter : some"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/Views/CollectionView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "116">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4B3DEFE4-4EEC-4482-8983-02774AFF3241"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TRENDME/ViewModels/SearchViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "search(category:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4B3DEFE4-4EEC-4482-8983-02774AFF3241 - 75e26e73f51244ee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TRENDME.SearchViewModel.search(category: Swift.String) -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/SearchViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "4B3DEFE4-4EEC-4482-8983-02774AFF3241 - a11e57d426760f29"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;TRENDME.Item&gt;, Swift.Error&gt;) -&gt; () in TRENDME.SearchViewModel.search(category: Swift.String) -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/SearchViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "208">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9ED5F126-577E-4C3E-A840-6861A6BF88E1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TRENDME/ViewModels/SearchViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "searchWithFilters(category:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9ED5F126-577E-4C3E-A840-6861A6BF88E1 - 8b34125dbeb6e27e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TRENDME.SearchViewModel.searchWithFilters(category: Swift.String) -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/SearchViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "224">
+               </Location>
+               <Location
+                  uuid = "9ED5F126-577E-4C3E-A840-6861A6BF88E1 - 8b34125dbeb6e27e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TRENDME.SearchViewModel.searchWithFilters(category: Swift.String) -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/SearchViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "196">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3998CE03-E362-4BAA-B7B1-E7BEA4F250C6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TRENDME/ViewModels/SearchViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "searchWithFilters(category:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3998CE03-E362-4BAA-B7B1-E7BEA4F250C6 - 873ac103342cf1bf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;Swift.Array&lt;TRENDME.Item&gt;, Swift.Error&gt;) -&gt; () in TRENDME.SearchViewModel.searchWithFilters(category: Swift.String) -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/SearchViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "3998CE03-E362-4BAA-B7B1-E7BEA4F250C6 - 21d519db84065a6a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;TRENDME.Item&gt;, Swift.Error&gt;) -&gt; () in TRENDME.SearchViewModel.searchWithFilters(category: Swift.String) -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/SearchViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "208">
+               </Location>
+               <Location
+                  uuid = "3998CE03-E362-4BAA-B7B1-E7BEA4F250C6 - 873ac103342cf05e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;Swift.Array&lt;TRENDME.Item&gt;, Swift.Error&gt;) -&gt; () in TRENDME.SearchViewModel.searchWithFilters(category: Swift.String) -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/SearchViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "76">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6B082657-8FE6-4EE8-9C2F-11BEB6D1BC2B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TRENDME/Views/CollectionView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "6B082657-8FE6-4EE8-9C2F-11BEB6D1BC2B - e71f3ef219b29406"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI.ForEach&lt;Swift.Array&lt;TRENDME.Item&gt;, Swift.String, &lt;&lt;opaque return type of SwiftUI.View.environmentObject&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Combine.ObservableObject&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;, SwiftUI.ForEach&lt;Swift.Array&lt;TRENDME.Item&gt;, Swift.String, &lt;&lt;opaque return type of SwiftUI.View.environmentObject&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Combine.ObservableObject&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.LazyVGrid&lt;SwiftUI._ConditionalContent&lt;SwiftUI.ForEach&lt;Swift.Array&lt;TRENDME.Item&gt;, Swift.String, &lt;&lt;opaque return type of SwiftUI.View.environmentObject&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Combine.ObservableObject&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;, SwiftUI.ForEach&lt;Swift.Array&lt;TRENDME.Item&gt;, Swift.String, &lt;&lt;opaque return type of SwiftUI.View.environmentObject&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Combine.ObservableObject&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;&gt;&gt;)&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.sheet&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, onDismiss: Swift.Optional&lt;() -&gt; ()&gt;, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; SwiftUI.ScrollView&lt;&lt;&lt;opaque return type of SwiftUI.View.sheet&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, onDismiss: Swift.Optional&lt;() -&gt; ()&gt;, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt; in TRENDME.CollectionView.body.getter : some"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/Views/CollectionView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "94"
+                  endingLineNumber = "94"
+                  offsetFromSymbolStart = "388">
+               </Location>
+               <Location
+                  uuid = "6B082657-8FE6-4EE8-9C2F-11BEB6D1BC2B - e71f3ef219b29406"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI.ForEach&lt;Swift.Array&lt;TRENDME.Item&gt;, Swift.String, &lt;&lt;opaque return type of SwiftUI.View.environmentObject&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Combine.ObservableObject&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;, SwiftUI.ForEach&lt;Swift.Array&lt;TRENDME.Item&gt;, Swift.String, &lt;&lt;opaque return type of SwiftUI.View.environmentObject&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Combine.ObservableObject&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.LazyVGrid&lt;SwiftUI._ConditionalContent&lt;SwiftUI.ForEach&lt;Swift.Array&lt;TRENDME.Item&gt;, Swift.String, &lt;&lt;opaque return type of SwiftUI.View.environmentObject&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Combine.ObservableObject&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;, SwiftUI.ForEach&lt;Swift.Array&lt;TRENDME.Item&gt;, Swift.String, &lt;&lt;opaque return type of SwiftUI.View.environmentObject&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Combine.ObservableObject&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;&gt;&gt;)&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.sheet&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, onDismiss: Swift.Optional&lt;() -&gt; ()&gt;, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; SwiftUI.ScrollView&lt;&lt;&lt;opaque return type of SwiftUI.View.sheet&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, onDismiss: Swift.Optional&lt;() -&gt; ()&gt;, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt; in TRENDME.CollectionView.body.getter : some"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/Views/CollectionView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "94"
+                  endingLineNumber = "94"
+                  offsetFromSymbolStart = "352">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "13BA7E49-6A1D-492B-9706-3F4C27E90A6E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TRENDME/Views/CartView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "13BA7E49-6A1D-492B-9706-3F4C27E90A6E - 2e9fadb55cb84165"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.ScrollView&lt;SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0)&gt;&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.disableWithOpacity(Swift.Bool) -&gt; some&gt;&gt;.0)&gt; in closure #1 () -&gt; SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.ScrollView&lt;SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0)&gt;&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.disableWithOpacity(Swift.Bool) -&gt; some&gt;&gt;.0)&gt;&gt; in TRENDME.CartView.body.getter : some"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/Views/CartView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "13BA7E49-6A1D-492B-9706-3F4C27E90A6E - 2e9fadb55cb8410a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.ScrollView&lt;SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0)&gt;&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.disableWithOpacity(Swift.Bool) -&gt; some&gt;&gt;.0)&gt; in closure #1 () -&gt; SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.ScrollView&lt;SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0)&gt;&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.disableWithOpacity(Swift.Bool) -&gt; some&gt;&gt;.0)&gt;&gt; in TRENDME.CartView.body.getter : some"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/Views/CartView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "84">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "32857676-3CC1-4E7B-868C-EBC5ABBC4508"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TRENDME/ViewModels/CartViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
+            landmarkName = "makeOrder()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "32857676-3CC1-4E7B-868C-EBC5ABBC4508 - b93fd8917ccd42b2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TRENDME.CartViewModel.makeOrder() -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  uuid = "32857676-3CC1-4E7B-868C-EBC5ABBC4508 - f448c37ea8764f26"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;TRENDME.Order, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.makeOrder() -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "104"
+                  endingLineNumber = "104"
+                  offsetFromSymbolStart = "192">
+               </Location>
+               <Location
+                  uuid = "32857676-3CC1-4E7B-868C-EBC5ABBC4508 - b93fd8917ccd42b2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TRENDME.CartViewModel.makeOrder() -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "32857676-3CC1-4E7B-868C-EBC5ABBC4508 - b93fd8917ccd42b2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TRENDME.CartViewModel.makeOrder() -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "32857676-3CC1-4E7B-868C-EBC5ABBC4508 - b93fd8917ccd42f4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TRENDME.CartViewModel.makeOrder() -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "105"
+                  endingLineNumber = "105"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "32857676-3CC1-4E7B-868C-EBC5ABBC4508 - b93fd8917ccd42f4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TRENDME.CartViewModel.makeOrder() -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "105"
+                  endingLineNumber = "105"
+                  offsetFromSymbolStart = "136">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DAA92D31-3C08-475A-8CEC-75E67EABDFE8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TRENDME/ViewModels/CartViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "fetchCartData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E90ADF08-8A63-4DE5-B4B3-57619142F1B7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TRENDME/ViewModels/CartViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
+            landmarkName = "makeOrder()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E90ADF08-8A63-4DE5-B4B3-57619142F1B7 - f448c37ea8764f26"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;TRENDME.Order, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.makeOrder() -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "104"
+                  endingLineNumber = "104"
+                  offsetFromSymbolStart = "192">
+               </Location>
+               <Location
+                  uuid = "E90ADF08-8A63-4DE5-B4B3-57619142F1B7 - 47bdde17b0d6beef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TRENDME.Order, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.makeOrder() -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "E90ADF08-8A63-4DE5-B4B3-57619142F1B7 - b93fd8917ccd42d5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TRENDME.CartViewModel.makeOrder() -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "104"
+                  endingLineNumber = "104"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  uuid = "E90ADF08-8A63-4DE5-B4B3-57619142F1B7 - f448c37ea8764f07"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;TRENDME.Order, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.makeOrder() -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "105"
+                  endingLineNumber = "105"
+                  offsetFromSymbolStart = "192">
+               </Location>
+               <Location
+                  uuid = "E90ADF08-8A63-4DE5-B4B3-57619142F1B7 - b93fd8917ccd4117"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TRENDME.CartViewModel.makeOrder() -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  uuid = "E90ADF08-8A63-4DE5-B4B3-57619142F1B7 - f448c37ea8764cc5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;TRENDME.Order, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.makeOrder() -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "192">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CEBC8D71-0105-4E01-8E04-00BB7796F202"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TRENDME/ViewModels/CartViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "makeOrder()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CEBC8D71-0105-4E01-8E04-00BB7796F202 - 47bdde17b0d6beef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TRENDME.Order, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.makeOrder() -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "CEBC8D71-0105-4E01-8E04-00BB7796F202 - 47bdde17b0d6beef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TRENDME.Order, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.makeOrder() -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  uuid = "CEBC8D71-0105-4E01-8E04-00BB7796F202 - 47bdde17b0d6beef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TRENDME.Order, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.makeOrder() -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "928">
+               </Location>
+               <Location
+                  uuid = "CEBC8D71-0105-4E01-8E04-00BB7796F202 - 47bdde17b0d6bece"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TRENDME.Order, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.makeOrder() -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "CEBC8D71-0105-4E01-8E04-00BB7796F202 - 47bdde17b0d6bece"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TRENDME.Order, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.makeOrder() -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  uuid = "CEBC8D71-0105-4E01-8E04-00BB7796F202 - 47bdde17b0d6bece"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TRENDME.Order, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.makeOrder() -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "928">
+               </Location>
+               <Location
+                  uuid = "CEBC8D71-0105-4E01-8E04-00BB7796F202 - 47bdde17b0d6be90"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TRENDME.Order, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.makeOrder() -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "109"
+                  endingLineNumber = "109"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "CEBC8D71-0105-4E01-8E04-00BB7796F202 - 47bdde17b0d6be90"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TRENDME.Order, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.makeOrder() -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "109"
+                  endingLineNumber = "109"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  uuid = "CEBC8D71-0105-4E01-8E04-00BB7796F202 - 47bdde17b0d6be90"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TRENDME.Order, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.makeOrder() -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "109"
+                  endingLineNumber = "109"
+                  offsetFromSymbolStart = "972">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1A8343A7-7E8F-4F33-AF9C-5AC45F4A74C3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TRENDME/ViewModels/CartViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
+            landmarkName = "makeOrder()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1A8343A7-7E8F-4F33-AF9C-5AC45F4A74C3 - 47bdde17b0d6beef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TRENDME.Order, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.makeOrder() -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "1A8343A7-7E8F-4F33-AF9C-5AC45F4A74C3 - 47bdde17b0d6beef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TRENDME.Order, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.makeOrder() -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  uuid = "1A8343A7-7E8F-4F33-AF9C-5AC45F4A74C3 - 47bdde17b0d6beef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TRENDME.Order, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.makeOrder() -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "928">
+               </Location>
+               <Location
+                  uuid = "1A8343A7-7E8F-4F33-AF9C-5AC45F4A74C3 - f448c37ea8764f07"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;TRENDME.Order, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.makeOrder() -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "105"
+                  endingLineNumber = "105"
+                  offsetFromSymbolStart = "192">
+               </Location>
+               <Location
+                  uuid = "1A8343A7-7E8F-4F33-AF9C-5AC45F4A74C3 - 47bdde17b0d6bece"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TRENDME.Order, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.makeOrder() -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "1A8343A7-7E8F-4F33-AF9C-5AC45F4A74C3 - f448c37ea8764cc5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;TRENDME.Order, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.makeOrder() -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "192">
+               </Location>
+               <Location
+                  uuid = "1A8343A7-7E8F-4F33-AF9C-5AC45F4A74C3 - 47bdde17b0d6be90"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;TRENDME.Order, Swift.Error&gt;) -&gt; () in TRENDME.CartViewModel.makeOrder() -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "109"
+                  endingLineNumber = "109"
+                  offsetFromSymbolStart = "104">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5A6C166B-A4E6-434C-9138-EBD34FFF4AE6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TRENDME/Views/CollectionView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "115797D6-DB9B-45CF-9C00-51D3DB146D69"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TRENDME/ViewModels/LoginViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "getUserFromToken()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D20B26FE-18FB-4551-8210-C0C3C0E2B4AF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TRENDME/ViewModels/LoginViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "getUserFromToken()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D20B26FE-18FB-4551-8210-C0C3C0E2B4AF - 2684643287fd68c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;TRENDME.UserModel, Swift.Error&gt;) -&gt; () in TRENDME.LoginViewModel.getUserFromToken() -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "460">
+               </Location>
+               <Location
+                  uuid = "D20B26FE-18FB-4551-8210-C0C3C0E2B4AF - 2684643287fd68c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;TRENDME.UserModel, Swift.Error&gt;) -&gt; () in TRENDME.LoginViewModel.getUserFromToken() -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "604">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "61C6F81B-C69E-40A4-A4B3-99B67845131D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TRENDME/ViewModels/LoginViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "getUserFromToken()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "61C6F81B-C69E-40A4-A4B3-99B67845131D - 2684643287fd68c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;TRENDME.UserModel, Swift.Error&gt;) -&gt; () in TRENDME.LoginViewModel.getUserFromToken() -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "460">
+               </Location>
+               <Location
+                  uuid = "61C6F81B-C69E-40A4-A4B3-99B67845131D - 2684643287fd68c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;TRENDME.UserModel, Swift.Error&gt;) -&gt; () in TRENDME.LoginViewModel.getUserFromToken() -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "604">
+               </Location>
+               <Location
+                  uuid = "61C6F81B-C69E-40A4-A4B3-99B67845131D - 2684643287fd68c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;TRENDME.UserModel, Swift.Error&gt;) -&gt; () in TRENDME.LoginViewModel.getUserFromToken() -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "476">
+               </Location>
+               <Location
+                  uuid = "61C6F81B-C69E-40A4-A4B3-99B67845131D - 2684643287fd68c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;TRENDME.UserModel, Swift.Error&gt;) -&gt; () in TRENDME.LoginViewModel.getUserFromToken() -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "620">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "01CE0F12-6F56-4E7C-8B8B-6BF76885FE32"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TRENDME/ViewModels/CartViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "fetchCartData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "01CE0F12-6F56-4E7C-8B8B-6BF76885FE32 - cf4e7a3ca6e063e7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TRENDME.CartViewModel.fetchCartData() -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "01CE0F12-6F56-4E7C-8B8B-6BF76885FE32 - cf4e7a3ca6e06206"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TRENDME.CartViewModel.fetchCartData() -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/CartViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "40">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E321BBEC-49EF-4F28-96C3-E607B411A944"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TRENDME/ViewModels/LoginViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "getUserFromToken()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E321BBEC-49EF-4F28-96C3-E607B411A944 - 74b591f062038a4f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TRENDME.LoginViewModel.getUserFromToken() -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "E321BBEC-49EF-4F28-96C3-E607B411A944 - 2684643287fd68c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;TRENDME.UserModel, Swift.Error&gt;) -&gt; () in TRENDME.LoginViewModel.getUserFromToken() -&gt; ()"
+                  moduleName = "TRENDME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mangiwimalaweera/Coding/TRENDME/TRENDME/ViewModels/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "476">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EDF66ADF-7AFC-4D5D-9655-685067475D0B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TRENDME/ViewModels/LoginViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "getUserId()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9660D5F9-3BAC-4866-B923-A09FAC3A2228"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TRENDME/ViewModels/LoginViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "getUserName()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5BA42C3F-790E-4897-AA44-1A5388B0DB19"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TRENDME/ViewModels/LoginViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "getUserEmail()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

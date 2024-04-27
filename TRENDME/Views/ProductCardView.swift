@@ -11,7 +11,7 @@ import UIKit
 import Kingfisher
 
 struct ProductCardView: View {
-    
+    @State var showConfirmation : Bool = false
     @EnvironmentObject var cartVM: CartViewModel
     @StateObject private var viewModel: ProductCardViewModel
     var item: Item
@@ -52,13 +52,13 @@ struct ProductCardView: View {
                     Spacer()
                     
                     HStack {
-                        Text("$\(item.unitPrice.formatted())")
-                            .font(.system(size: 24, weight: .semibold))
+                        Text("Rs.\(item.unitPrice.formatted())")
+                            .font(.system(size: 27, weight: .semibold))
                         
                         Spacer()
                         
                         Button {
-                            cartVM.addToCart(item: item)
+                            self.showConfirmation.toggle()
                         } label: {
                             Image(systemName: "cart")
                                 .imageScale(.large)
@@ -68,6 +68,14 @@ struct ProductCardView: View {
                                 .foregroundStyle(.white)
                         }
                         .padding(.horizontal, -10)
+                        .alert(isPresented: $showConfirmation) {
+                              Alert(
+                                title: Text("Confirm Action"),
+                                message: Text("Are you sure you want to add this item to cart?"),
+                                primaryButton: .destructive(Text("Yes"), action: handleAddToCart),
+                                secondaryButton: .cancel()
+                              )
+                            }
                     }
                     .padding(.leading)
                     .padding()
@@ -87,6 +95,9 @@ struct ProductCardView: View {
             viewModel.loadImage(from: item.image)
         }
     }
+    func handleAddToCart() {
+        cartVM.addToCart(item: item)
+      }
 }
 
 

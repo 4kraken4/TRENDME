@@ -50,8 +50,8 @@ struct SmallProductCardView : View {
                     Spacer()
                     
                     HStack {
-                        Text("$\(item.unitPrice.formatted())")
-                            .font(.system(size: 14, weight: .semibold))
+                        Text("Rs.\(item.unitPrice.formatted())")
+                            .font(.system(size: 12, weight: .semibold))
                         
                         Spacer()
                         

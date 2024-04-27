@@ -49,6 +49,7 @@ struct LoginView: View {
                     
                     // Login logic
                     loginVM.login()
+                    loginVM.getUserFromToken()
                     
                 }.hSpacing(.trailing)
                     .disableWithOpacity(loginVM.email.isEmpty || loginVM.password.isEmpty)

@@ -13,6 +13,7 @@ class LoginViewModel : ObservableObject {
     @Published var success : Bool = false
     @Published var isError : Bool = false
     @Published var isAuthenticated: Bool = false
+    @Published var loggedInUserId: Int = 0
     private let apiService = APIService.shared
     
     
@@ -55,5 +56,43 @@ class LoginViewModel : ObservableObject {
                 print(error.localizedDescription)
             }
         }
+    }
+    
+    func logout() {
+        let defaults = UserDefaults.standard
+        defaults.setValue("", forKey: "token")
+        self.isAuthenticated = false
+    }
+    
+    func getUserFromToken() {
+        let defaults = UserDefaults.standard
+        apiService.fetchData(endpoint: "/auth/me") { (result: Result<UserModel, Error>) in
+            switch result {
+            case .success(let response):
+                guard let userId = Optional(response.userID),
+                      let userName = Optional(response.username),
+                      let email = Optional(response.email)
+                else {
+                    return
+                }
+                defaults.setValue(userId, forKey: "userId")
+                defaults.setValue(email, forKey: "email")
+                defaults.setValue(userName, forKey: "username")
+            case.failure(let error):
+                print(error.localizedDescription)
+            }
+        }
+    }
+    
+    func getUserId() -> Int {
+        return UserDefaults.standard.integer(forKey: "userId")
+    }
+    
+    func getUserName() -> String {
+        return UserDefaults.standard.string(forKey: "username") ?? "SampleUser"
+    }
+    
+    func getUserEmail() -> String {
+        return UserDefaults.standard.string(forKey: "email") ?? "user@gmail.com"
     }
 }

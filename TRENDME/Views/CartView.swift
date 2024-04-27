@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct CartView: View {
-    
+    @State private var showMessage: Bool = false
     @Environment (\.presentationMode) var mode
     @EnvironmentObject var cartVM: CartViewModel
     @State private var items: [Item] = [
@@ -76,13 +76,16 @@ struct CartView: View {
                 }
                 
                 CustomButton(title: "Make Payment", icon: cartVM.items.isEmpty ? "cart" : "cart.fill") {
-                    
                     cartVM.makeOrder()
-                    
+                    self.showMessage.toggle()
                 }
                 .padding(.horizontal)
+                .alert(isPresented: $showMessage) {
+                      Alert(title: Text("Success"), message: Text("Payment completed successfully."), dismissButton: .default(Text("OK")))
+                    }
                 .hSpacing()
-                    .disableWithOpacity(cartVM.items.isEmpty)
+                .disableWithOpacity(cartVM.items.isEmpty)
+                
             }
         }
     }
@@ -146,7 +149,7 @@ struct CartProductView : View {
             } label: {
                 Image(systemName: "trash")
                     .font(.system(size: 24))
-                    .foregroundColor(.gray)
+                    .foregroundColor(.red.opacity(0.8))
             }
         }
         .padding()

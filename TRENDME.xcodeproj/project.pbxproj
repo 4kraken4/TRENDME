@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		933F35362BD91E000097A97C /* SearchFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933F35352BD91E000097A97C /* SearchFilterView.swift */; };
+		933F35382BDA1FE50097A97C /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933F35372BDA1FE50097A97C /* AccountView.swift */; };
+		933F353A2BDA46760097A97C /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933F35392BDA46750097A97C /* UserModel.swift */; };
 		934344E12BC149C900946BE7 /* BottomNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934344E02BC149C900946BE7 /* BottomNav.swift */; };
 		934344E32BC1AB7E00946BE7 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934344E22BC1AB7E00946BE7 /* SearchView.swift */; };
 		934344E52BC1AD2900946BE7 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934344E42BC1AD2900946BE7 /* SearchViewModel.swift */; };
@@ -55,6 +58,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		933F35352BD91E000097A97C /* SearchFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFilterView.swift; sourceTree = "<group>"; };
+		933F35372BDA1FE50097A97C /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		933F35392BDA46750097A97C /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		934344E02BC149C900946BE7 /* BottomNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNav.swift; sourceTree = "<group>"; };
 		934344E22BC1AB7E00946BE7 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		934344E42BC1AD2900946BE7 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
@@ -200,6 +206,7 @@
 				93BEA9E52BB981FF004F5AFC /* AuthModel.swift */,
 				939B06F82BC28F0900C2F615 /* CartModel.swift */,
 				93CA03F22BC2EC8900505E4E /* OrderModel.swift */,
+				933F35392BDA46750097A97C /* UserModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -219,6 +226,8 @@
 				934344E02BC149C900946BE7 /* BottomNav.swift */,
 				934344E22BC1AB7E00946BE7 /* SearchView.swift */,
 				934344E62BC206FE00946BE7 /* SuccessScreen.swift */,
+				933F35352BD91E000097A97C /* SearchFilterView.swift */,
+				933F35372BDA1FE50097A97C /* AccountView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -330,8 +339,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				93BEA9B12BB59270004F5AFC /* CartView.swift in Sources */,
+				933F35362BD91E000097A97C /* SearchFilterView.swift in Sources */,
 				93ED5BF72BB348A600F169EE /* Circles.swift in Sources */,
 				93BEA9D12BB75482004F5AFC /* ImageLoader.swift in Sources */,
+				933F35382BDA1FE50097A97C /* AccountView.swift in Sources */,
 				93E4B8832BB1776E00D58E8C /* FacebookLogo.swift in Sources */,
 				934344E52BC1AD2900946BE7 /* SearchViewModel.swift in Sources */,
 				93BEA9B32BB5ADB1004F5AFC /* CartViewModel.swift in Sources */,
@@ -370,6 +381,7 @@
 				934344E72BC206FE00946BE7 /* SuccessScreen.swift in Sources */,
 				93BEA9A72BB3F8A5004F5AFC /* BottomNavigation.swift in Sources */,
 				93BEA9B62BB68C2A004F5AFC /* AuthService.swift in Sources */,
+				933F353A2BDA46760097A97C /* UserModel.swift in Sources */,
 				93DAFF792BA5C57E008D3612 /* TRENDMEApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

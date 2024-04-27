@@ -36,8 +36,4 @@ class CollectionViewModel : ObservableObject {
             }
         }
     }
-    
-    func fetchCollection() {
-        self.fetchCollection(category: "")
-    }
 }

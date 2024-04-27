@@ -12,6 +12,7 @@ class CartViewModel : ObservableObject {
     @Published private(set) var total: Double = 0
     private let apiService = APIService.shared
     @Published var cart: CartModelResponse?
+    @Published var paymentCompleted: Bool = false
     @Published var order: Order?
     
     func addToCart(item: Item) {
@@ -47,7 +48,7 @@ class CartViewModel : ObservableObject {
     }
     
     private func upsertCart() {
-        if self.cart == nil {
+        if self.cart != nil {
             if let cartId = cart?.cartModelID {
                 apiService.putData(endpoint: "/cart/\(cartId)", body: CartModel(id: 1, items: items, status: false)) { (result: Result<CartModelResponse, Error>) in
                     DispatchQueue.main.async {
@@ -79,7 +80,8 @@ class CartViewModel : ObservableObject {
     }
     
     func fetchCartData() {
-        apiService.fetchData(endpoint: "/cart/user/0") { (result: Result<CartModelResponse, Error>) in
+        let userId = UserDefaults.standard.integer(forKey: "userId")
+        apiService.fetchData(endpoint: "/cart/user/\(userId)") { (result: Result<CartModelResponse, Error>) in
             DispatchQueue.main.async {
                 switch result {
                 case .success(let cart):
@@ -99,8 +101,9 @@ class CartViewModel : ObservableObject {
     }
     
     func makeOrder() {
-        if let cart = self.cart.self {
-            apiService.postData(endpoint: "/order", body: OrderRequest(userId: cart.userID, cartId: cart.cartModelID, total: self.total)) { (result: Result<Order, Error>) in
+        self.paymentCompleted = false
+        if let cart = self.cart {
+            self.apiService.postData(endpoint: "/order", body: OrderRequest(userId: cart.userID, cartId: cart.cartModelID, total: self.total)) { (result: Result<Order, Error>) in
                 DispatchQueue.main.async {
                     switch result {
                     case .success(let order):
@@ -110,6 +113,8 @@ class CartViewModel : ObservableObject {
                         self.order = order
                         self.cart = nil
                         self.items.removeAll()
+                        self.paymentCompleted = true
+                        self.total = 0
                     case .failure(let error):
                         print(error.localizedDescription)
                         
@@ -117,6 +122,5 @@ class CartViewModel : ObservableObject {
                 }
             }
         }
-        
     }
 }
